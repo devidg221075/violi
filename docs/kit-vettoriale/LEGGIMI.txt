@@ -1,0 +1,20 @@
+VIOLI MACCHINE — KIT VETTORIALE DELLA TAVOLA MASTER
+7 novembre 2026
+
+CONTENUTO
+01-ICONE: 24 icone separate, nelle varianti oro, verde, bianco e currentColor per il web. Tricolore italiano con i suoi colori. I simboli social sono ricostruzioni schematiche.
+02-COMPONENTI: 27 componenti SVG (pulsanti, card, ricerca, filtri, paginazione, tab, icone, CTA, decori, griglia, spaziature, responsive, smartphone, palette, header e footer). Due versioni: testi modificabili e testi convertiti in tracciati.
+03-TAVOLA-RIEPILOGATIVA: tavola SVG composta esclusivamente da vettori; versione con testi e versione in tracciati. Anteprima PNG di consultazione.
+04-ESEMPI-CON-FOTO-RASTER: card bobinatore con immagine incorporata. La fotografia rimane raster; contenitore, icona, pulsante e testo sono vettoriali.
+05-LOGO-E-FONT: logo autentico in SVG e font Inter / Montserrat con licenze.
+06-RIFERIMENTI: tavola raster fornita, a confronto con gli elementi ricostruiti.
+
+FEDELTA’
+La tavola master disponibile è un’immagine PNG e non contiene tracciati estraibili. Icone e componenti sono stati ridisegnati come geometrie vettoriali coerenti con i riferimenti: non sono un recupero degli originali e non sono certificati identici al pixel. Il logo ufficiale è invece il file autentico già disponibile.
+Le fotografie e le illustrazioni fotorealistiche non diventano immagini vettoriali nella card di esempio. La card senza foto è completamente vettoriale.
+Gli SVG sono scalabili senza una risoluzione fissa in dpi. I testi in tracciati si aprono senza dover installare i font; per modificare le parole usare le versioni testo con i font inclusi.
+Palette: verde #045327, oro #C29536, avorio #F8F6F1, antracite #1F2937, grigio #6B7280.
+
+USO
+Aprire APRI_KIT.html per sfogliare gli elementi. I file SVG si possono importare in Illustrator, Affinity Designer, Figma, Inkscape o usare sul web. Gli elementi della tavola SVG sono raggruppati; separarli o modificarli nell’editor preferito.
+Per ottenere bordi sempre proporzionati, scalare tracciati ed eventuali spessori insieme. Non servono esportazioni enormi in pixel per mantenere nitidi i vettori.

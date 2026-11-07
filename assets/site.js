@@ -1,6 +1,7 @@
 'use strict';
 (()=>{
   const menu=document.querySelector('.mobile-menu');
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'){const a=document.activeElement;if(a&&a.closest&&a.closest('.has-sub'))a.blur();}});
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu?.open){menu.open=false;menu.querySelector('summary').focus();}});
   menu?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.open=false;}));
   document.addEventListener('click',e=>{if(menu?.open&&!menu.contains(e.target))menu.open=false;});

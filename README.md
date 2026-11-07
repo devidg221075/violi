@@ -6,7 +6,10 @@ Sito statico, senza build né dipendenze: apri `index.html` nel browser.
 - `assets/` — CSS, JS, font (Inter, Montserrat, licenze OFL), logo SVG, immagini di riferimento
 - `riferimenti/` — dati del confronto dimostrativo
 - `docs/` — regole Master 1.1, brief, stato e provenienza, verifiche, mockup approvati
+- `assets/icone/` — 24 icone ufficiali del kit vettoriale (varianti `currentColor`); `assets/violi-logo-web-bianco.svg` per i fondi scuri
+- `tools/build_sprite.py` — incorpora lo sprite delle icone nelle tre pagine (rieseguirlo se cambiano le icone)
 - `tools/build_standalone.py` — genera in `dist/` le versioni autonome (un solo file per pagina)
+- `docs/kit-vettoriale/` — kit vettoriale Master 1.1 (icone nei tre colori, componenti SVG, tavola riepilogativa)
 
 ## Stato
 

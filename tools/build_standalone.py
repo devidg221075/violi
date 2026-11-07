@@ -60,6 +60,7 @@ for file in PAGES:
     source = source.replace('<script defer src="assets/site.js"></script>',
                             '<script>document.addEventListener("DOMContentLoaded",()=>{\n' + script + '\n});</script>')
     source = source.replace('assets/violi-logo-web.svg', data(A / 'violi-logo-web.svg'))
+    source = source.replace('assets/violi-logo-web-bianco.svg', data(A / 'violi-logo-web-bianco.svg'))
     for name in PAGES:
         source = source.replace(f'href="{name}.html', f'href="{name}-autonomo.html')
     (OUT / (file + '-autonomo.html')).write_text(source)
