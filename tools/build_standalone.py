@@ -41,7 +41,7 @@ for file in PAGES:
         n = re.search(r'crop-(\d+)', cl)[1]
         w, h, pct, left, top = boxes[n]
         W = w * pct / 100
-        H = 1683 if name == 'catalogo-riferimento.png' else 1536
+        H = 1683 if name == 'catalogo-riferimento.webp' else 1536
         x, y = -left * w / 100, -top * h / 100
         if name not in sources:
             sources[name] = f'ref{len(sources)}'
@@ -59,6 +59,7 @@ for file in PAGES:
     source = source.replace('<link rel="stylesheet" href="assets/style.css">', '<style>' + local + '</style>')
     source = source.replace('<script defer src="assets/site.js"></script>',
                             '<script>document.addEventListener("DOMContentLoaded",()=>{\n' + script + '\n});</script>')
+    source = re.sub(r'<link rel="(?:icon" href="assets/favicon-32\.png|apple-touch-icon)"[^>]*>', '', source)
     source = source.replace('assets/violi-logo-web.svg', data(A / 'violi-logo-web.svg'))
     source = source.replace('assets/violi-logo-web-bianco.svg', data(A / 'violi-logo-web-bianco.svg'))
     for name in PAGES:

@@ -15,44 +15,50 @@ aprendo le pagine in locale.
 | 5 | **Dati aziendali** | Controllare indirizzo, telefono, P.IVA e email del footer (presi dal sito ufficiale il 7 novembre 2026). | Violi |
 | 6 | **PDF e video** | I pulsanti rimandano al sito ufficiale: non ci sono PDF né video propri. | Violi: materiali |
 
-## 2. Miglioramenti tecnici consigliati (non bloccanti)
+## 2. Ottimizzazioni tecniche (fatte)
 
-Peso misurato in locale (senza compressione del server):
+| Voce | Prima | Dopo |
+|------|-------|------|
+| Font | 8 file TTF, circa 2 MB | 8 file WOFF2 ridotti al set latino, circa 120 KB |
+| Immagini di riferimento | 3 PNG, circa 6,4 MB | 3 WebP, circa 0,7 MB (stessa dimensione in pixel) |
+| Home (peso totale) | 5,3 MB | circa 1,0 MB |
+| Versioni autonome | 5,6-8,4 MB ciascuna | 0,6-0,9 MB ciascuna |
+| Cartella `public/` | non esisteva | 1,2 MB in tutto |
 
-| Pagina | Peso | Voce più pesante |
-|--------|------|------------------|
-| Home | 5,3 MB | `homepage-riferimento.png` 2,1 MB + `catalogo-riferimento.png` 2,1 MB |
-| Catalogo | 3,6 MB | `catalogo-riferimento.png` 2,1 MB |
-| Per Filo | 3,3 MB | `per-filo-riferimento.png` 2,2 MB |
+Il confronto pixel per pixel con la versione precedente (390 e 1280 px, tre pagine) non mostra differenze visibili.
 
-- **Immagini**: con le foto reali, esportarle in WebP/AVIF a più larghezze (`srcset`); oggi le pagine caricano l'intero mockup per mostrarne un ritaglio.
-- **Font**: 8 file TTF da circa 2 MB in totale. Convertire in WOFF2 (circa -60%) e caricare solo i pesi usati (Montserrat 600/700, Inter 400/500/600).
-- **Meta**: aggiungere `canonical` e Open Graph/Twitter card (titolo, descrizione, immagine 1200×630) quando il dominio è definito.
-- **File mancanti**: `robots.txt`, `sitemap.xml`, `404.html`, favicon PNG/`apple-touch-icon` per i dispositivi che non leggono l'SVG.
-- **Dati strutturati**: `Organization` e `LocalBusiness` (JSON-LD) con i dati aziendali.
+Fatto anche: meta description distinte per pagina, Open Graph e Twitter card, favicon PNG e `apple-touch-icon`,
+`404.html` (noindex, funziona a qualsiasi percorso), `robots.txt`, immagine di anteprima `assets/og-image.jpg` (1200×630).
 
-## 3. Hosting consigliato (sito statico, nessuna build)
+**Quando il dominio è definito** eseguire una volta:
 
-Il repository si pubblica così com'è: la radice contiene `index.html`, `catalogo.html`, `per-filo.html` e `assets/`.
-
-**Vercel** — Framework preset *Other*, Build command vuoto, Output directory `.` (radice).
-**Cloudflare Pages** — Framework preset *None*, Build command vuoto, Build output directory `/`.
-
-Prima di collegare il ramo di produzione, escludere `docs/` e `tools/` dal deploy (non servono online):
-- Vercel: file `.vercelignore` con `docs`, `tools`, `dist`.
-- Cloudflare Pages: spostare le pagine in `public/` oppure usare una build che copia solo i file del sito.
-
-Intestazioni consigliate (Vercel `vercel.json` / Cloudflare `_headers`):
-
-```
-/assets/*   Cache-Control: public, max-age=31536000, immutable
-/*.html     Cache-Control: public, max-age=0, must-revalidate
-/*          X-Content-Type-Options: nosniff
-/*          Referrer-Policy: strict-origin-when-cross-origin
+```bash
+python3 tools/build_seo.py --domain https://IL-TUO-DOMINIO
 ```
 
-Se i nomi dei file in `assets/` cambiano a ogni modifica, la cache lunga è sicura; altrimenti
-aggiungere un suffisso di versione ai file modificati.
+Aggiunge `canonical`, `og:url`, `og:image` e genera `sitemap.xml` con la riga `Sitemap:` in `robots.txt`.
+Senza `--domain` il comando ripristina lo stato attuale (nessun URL assoluto).
+
+Ancora da fare, quando disponibili i materiali:
+
+- **Foto reali**: esportarle in WebP/AVIF a più larghezze (`srcset`) al posto dei ritagli dei mockup.
+- **Dati strutturati**: `Organization` e `LocalBusiness` (JSON-LD) con i dati aziendali confermati.
+- **Immagine di anteprima**: rifarla con una foto reale al posto del ritaglio del mockup.
+
+## 3. Hosting consigliato (sito statico)
+
+Le pagine sono statiche: nessun framework. La cartella da pubblicare è `public/`, generata da
+`python3 tools/build_public.py` (copia solo pagine, `assets/`, `riferimenti/`, `404.html`, `robots.txt`,
+`sitemap.xml` e `_headers`; esclude `docs/`, `tools/` e `dist/`).
+
+**Vercel** — il file `vercel.json` è già pronto (build command, cartella `public`, intestazioni di cache e sicurezza).
+Importare il repository e lasciare le impostazioni proposte.
+
+**Cloudflare Pages** — Framework preset *None*, Build command `python3 tools/build_public.py`,
+Build output directory `public`. Le intestazioni vengono lette da `_headers`.
+
+Cache: i file in `assets/` hanno cache di un anno (`immutable`); se un file di `assets/` cambia, va cambiato anche il nome
+(per esempio `style.v2.css`) oppure rimossa la cache. Le pagine HTML si ricontrollano a ogni visita.
 
 ## 4. Dominio
 
