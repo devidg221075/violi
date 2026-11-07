@@ -3294,3 +3294,77 @@ th {
 .plus h3 {
   font-weight:700
 }
+
+/* fotografie reali: riempiono lo slot mantenendo le proporzioni del riquadro */
+.photo.ph img {
+  position:absolute!important;
+  inset:0!important;
+  width:100%!important;
+  height:100%!important;
+  max-width:none!important;
+  object-fit:cover;
+  transform:none!important
+}
+
+/* con una foto reale il tasto "video" non è più disegnato nell'immagine: torna visibile */
+.photo.ph + .video-link {
+  inset:auto;
+  left:var(--s3);
+  bottom:var(--s3);
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:8px 18px 8px 8px;
+  background:rgba(1,61,31,.82);
+  border-radius:999px;
+  color:#fff;
+  font-family:var(--font-title);
+  font-weight:600;
+  font-size:14px
+}
+
+.photo.ph + .video-link span {
+  position:static;
+  width:auto;
+  height:auto;
+  clip:auto;
+  overflow:visible
+}
+
+.photo.ph + .video-link span:first-child {
+  display:inline-grid;
+  place-items:center;
+  width:40px;
+  height:40px;
+  border:2px solid #fff;
+  border-radius:50%;
+  font-size:16px;
+  line-height:1;
+  padding-left:2px
+}
+
+@media(max-width:767px) {
+  .photo.ph + .video-link {
+    left:var(--s2);
+    bottom:var(--s2);
+    font-size:12px;
+    padding:6px 14px 6px 6px
+  }
+  .photo.ph + .video-link span:first-child {
+    width:32px;
+    height:32px;
+    font-size:13px
+  }
+}
+
+.photo.ph + .video-link .video-label {
+  font-size:14px;
+  line-height:1.2;
+  white-space:nowrap
+}
+
+@media(max-width:767px) {
+  .photo.ph + .video-link .video-label {
+    font-size:12px
+  }
+}

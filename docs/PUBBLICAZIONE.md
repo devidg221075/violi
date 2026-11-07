@@ -8,7 +8,7 @@ aprendo le pagine in locale.
 
 | # | Punto | Perché | Chi |
 |---|-------|--------|-----|
-| 1 | **Fotografie reali dei prodotti** | Le immagini del sito sono ritagli dei tre mockup (`assets/*-riferimento.png`), illustrazioni non certificate che mostrano anche marchi provvisori. Non vanno pubblicate come fotografie dei prodotti. | Violi: fornire le foto |
+| 1 | **Fotografie reali dei prodotti** | Inserite 3 foto reali (sede, lavaggio a ultrasuoni, dettaglio meccanico); le altre posizioni usano ancora ritagli dei tre mockup (`assets/*-riferimento.png`), illustrazioni non certificate che mostrano anche marchi provvisori. Non vanno pubblicate come fotografie dei prodotti. | Violi: fornire le foto |
 | 2 | **Approvazione della ricostruzione** | Gli HTML approvati originali sono andati persi (`docs/STATO_E_PROVENIENZA.md`): le pagine attuali non sono ancora state approvate dal cliente. | Cliente |
 | 3 | **Prodotti VP / IU / BT** | Nomi e abbinamenti arrivano dal mockup, non sono verificati. Il confronto non contiene dati tecnici (corretto). | Violi: confermare |
 | 4 | **Informativa privacy** | Il sito non usa cookie né analytics, ma i contatti avvengono via email e nel footer manca il collegamento alla privacy policy. Oggi punta a `violimacchine.it/it/contatti`. | Violi / consulente |

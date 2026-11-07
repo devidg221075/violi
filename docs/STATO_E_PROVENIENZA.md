@@ -25,3 +25,16 @@ Sito ufficiale per categorie, contatti e collegamenti: https://violimacchine.it/
 Logo: file VIOLI_MACCHINE.svg individuato tra i materiali aziendali sul computer; copia inalterata verificata per confronto dell’impronta SHA-256.
 
 Le fonti esterne servono da riferimento; i contenuti del sito corrente possono cambiare. Non è stata effettuata alcuna pubblicazione.
+
+## Fotografie reali inserite (aggiornato dopo la consegna)
+
+Fornite dal cliente (2000×1333 px, convertite in WebP in `assets/foto/`):
+
+| File | Dove è usata | Note |
+|------|--------------|------|
+| `sede-violi.webp` | Home, sezione "L'Azienda" | Il cielo originale era ciano puro (0,187,255); è stato sostituito da un azzurro crepuscolare con una correzione di colore. Edificio, insegna e luci non sono stati modificati. I rametti più sottili dell'albero risultano attenuati. |
+| `lavaggio-ultrasuoni.webp` | Categoria "Per Lavaggio ad Ultrasuoni" (Home, Catalogo) e macchinario IU | Supporti con logo Violi nella vasca. |
+| `dettaglio-meccanico.webp` | Per Filo, fascia "Hai bisogno di una soluzione su misura?" | Dettaglio con rulli e servomotore, non associato a un prodotto preciso. |
+
+Ricevuta ma non ancora inserita: foto di saldatura in officina (appare la mano di un operatore; il cliente ha confermato di poterla usare).
+Le altre posizioni usano ancora i ritagli dei mockup.
