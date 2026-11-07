@@ -2986,7 +2986,8 @@ th {
     padding:32px max(44px,calc((100% - 1320px)/2 + 26px))
   }
   .plus-home {
-    background:radial-gradient(circle at 0 100%,#045327 0 56px,transparent 57px),radial-gradient(circle at 100% 100%,#e4eee6 0 120px,transparent 121px),#fff!important
+    background:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 130 300%22%3E%3Cdefs%3E%3ClinearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22%3E%3Cstop stop-color=%22%23087A40%22/%3E%3Cstop offset=%22.5%22 stop-color=%22%23045327%22/%3E%3Cstop offset=%221%22 stop-color=%22%23013D1F%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d=%22M0 232C48 206 100 128 124 0H0Z%22 fill=%22%23E4EEE6%22/%3E%3Cpath d=%22M0 0H60C48 70 30 130 0 176Z%22 fill=%22url(%23g)%22/%3E%3C/svg%3E") 0 0/130px 300px no-repeat,url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 260 130%22%3E%3Cdefs%3E%3ClinearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22%3E%3Cstop stop-color=%22%23087A40%22/%3E%3Cstop offset=%22.5%22 stop-color=%22%23045327%22/%3E%3Cstop offset=%221%22 stop-color=%22%23013D1F%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d=%22M0 130C34 66 118 18 260 0V130Z%22 fill=%22%23DCE8DE%22/%3E%3Cpath d=%22M150 130C176 92 214 70 260 62V130Z%22 fill=%22url(%23g)%22/%3E%3C/svg%3E") 100% 100%/260px 130px no-repeat,url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1000 40%22 preserveAspectRatio=%22none%22%3E%3Cpath d=%22M0 40V16C70 6 150 0 260 0H1000V40Z%22 fill=%22%23DCE7DD%22 opacity=%22.85%22/%3E%3C/svg%3E") 0 100%/100% 36px no-repeat,linear-gradient(180deg,#F8F9F8,#F4F6F4)!important;
+    padding-bottom:calc(var(--s4) + 24px)
   }
 }
 
@@ -3267,4 +3268,29 @@ th {
   .company:before {
     display:none
   }
+}
+
+/* smartphone: icona sopra il titolo (niente tagli), a capo naturali nei hero */
+@media(max-width:767px) {
+  .category-grid:not(.home-grid) .category-card h3 {
+    flex-direction:column;
+    align-items:flex-start;
+    gap:var(--s1);
+    min-height:0
+  }
+  .category-card h3 a {
+    overflow-wrap:anywhere
+  }
+  .hero-catalogo .hero-copy p br,.hero-filo .hero-copy p br {
+    display:none
+  }
+}
+
+.plus-symbol .ico {
+  width:1em;
+  height:1em
+}
+
+.plus h3 {
+  font-weight:700
 }
