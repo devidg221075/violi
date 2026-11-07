@@ -453,5 +453,33 @@
   "w": 0,
   "h": 0,
   "origine": "violimacchine.it"
+ },
+ "https://violimacchine.it/01_TRAFILA_14Passaggi_aperta-scaled.jpg": {
+  "file": "01-trafila-14passaggi-aperta.webp",
+  "sfondo_bianco": true,
+  "w": 1400,
+  "h": 934,
+  "origine": "violimacchine.it"
+ },
+ "https://violimacchine.it/TRAFILA_CHIUSA_02-scaled.jpg": {
+  "file": "trafila-chiusa-02.webp",
+  "sfondo_bianco": true,
+  "w": 1400,
+  "h": 1400,
+  "origine": "violimacchine.it"
+ },
+ "https://violimacchine.it/TRAFILA_FRONT-scaled.jpg": {
+  "file": "trafila-front.webp",
+  "sfondo_bianco": true,
+  "w": 1400,
+  "h": 1166,
+  "origine": "violimacchine.it"
+ },
+ "https://violimacchine.it/TRAFILE-A-PASSAGGI-MULTIPLI-PER-FILO.jpg": {
+  "file": "trafile-a-passaggi-multipli-per-filo.webp",
+  "sfondo_bianco": false,
+  "w": 1400,
+  "h": 761,
+  "origine": "violimacchine.it"
  }
 }

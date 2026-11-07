@@ -27,6 +27,7 @@ REMAP = {
     'prodotti/per-ceneri': 'per-ceneri.html',
     'prodotti/per-catalizzatori': 'per-catalizzatori.html',
     'prodotti/per-schede-elettroniche/separatrice-di-componenti-da-schede-elettroniche': 'separatrice-schede-elettroniche.html',
+    'prodotti/per-filo/trafile-a-passaggi-multipli-per-filo': 'per-filo-trafile-passaggi-multipli.html',
     'prodotti/per-filo/bobinatore-per-filo': 'per-filo-bobinatore.html',
     'prodotti/per-filo/trafile-per-filo-bull-block': 'per-filo-bull-block.html',
     'prodotti/per-filo/raddrizzatrici-per-filo-con-taglio-al-volo': 'per-filo-raddrizzatrici.html',

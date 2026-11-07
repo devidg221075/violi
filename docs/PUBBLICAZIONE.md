@@ -4,6 +4,11 @@ Stato al momento della stesura: **nulla è stato pubblicato**. Questo documento 
 serve prima di mettere il sito online e come farlo. Le misure sotto sono state rilevate
 aprendo le pagine in locale.
 
+## 0. Stato del sito
+
+**40 pagine** (Home, Catalogo, Azienda, Contatti, News ed eventi, Impianti con 7 schede, 8 categorie, 22 schede prodotto) più `404.html`. Testi e foto di prodotto provengono da violimacchine.it (vedi `docs/CONTENUTI_PAGINE.md`).
+Privacy e Cookie policy non sono pagine del sito: il footer collega i testi ospitati su iubenda.
+
 ## 1. Blocchi da risolvere prima di pubblicare
 
 | # | Punto | Perché | Chi |
@@ -13,6 +18,9 @@ aprendo le pagine in locale.
 | 3 | **Prodotti VP / IU / BT** | Nomi e abbinamenti arrivano dal mockup, non sono verificati. Il confronto non contiene dati tecnici (corretto). | Violi: confermare |
 | 4 | **Informativa privacy** | Il sito non usa cookie né analytics, ma i contatti avvengono via email e nel footer manca il collegamento alla privacy policy. Oggi punta a `violimacchine.it/it/contatti`. | Violi / consulente |
 | 5 | **Dati aziendali** | Controllare indirizzo, telefono, P.IVA e email del footer (presi dal sito ufficiale il 7 novembre 2026). | Violi |
+| 5b | **Riuso delle foto del sito ufficiale** | Le foto di prodotto e di Impianti sono prese da violimacchine.it; confermare che si possano riutilizzare su un nuovo dominio. Alcune mostrano un'insegna storica "Violi Meccanica Industriale". | Violi |
+| 5c | **Referente India e GCC** | Nome, telefono ed e-mail di una persona (JTE DMCC) sono pubblicati in Contatti come sul sito ufficiale. | Violi: confermare |
+| 5d | **Modulo contatti** | Compone il messaggio e apre la posta, non invia nulla né salva dati. Se serve un invio vero va scelto un servizio (e aggiornata la privacy). | Violi |
 | 6 | **PDF e video** | I pulsanti rimandano al sito ufficiale: non ci sono PDF né video propri. | Violi: materiali |
 
 ## 2. Ottimizzazioni tecniche (fatte)
@@ -23,7 +31,7 @@ aprendo le pagine in locale.
 | Immagini di riferimento | 3 PNG, circa 6,4 MB | 3 WebP, circa 0,7 MB (stessa dimensione in pixel) |
 | Home (peso totale) | 5,3 MB | circa 1,0 MB |
 | Versioni autonome | 5,6-8,4 MB ciascuna | 0,6-0,9 MB ciascuna |
-| Cartella `public/` | non esisteva | 1,2 MB in tutto |
+| Cartella `public/` | non esisteva | circa 6,6 MB con le 40 pagine e le foto |
 
 Il confronto pixel per pixel con la versione precedente (390 e 1280 px, tre pagine) non mostra differenze visibili.
 
