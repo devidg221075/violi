@@ -22,6 +22,21 @@ PAGES = {
                       'Macchine per la lavorazione del filo: trafile a passaggi multipli, bobinatori, trafile '
                       'Bull Block e raddrizzatrici con taglio al volo. Tecnologie Made in Italy.'),
 }
+
+
+def _short(text, n=158):
+    import re as _re
+    first = _re.split(r'(?<=[a-zà-ù\)])\.\s', text, maxsplit=1)[0].rstrip('.') + '.'
+    return first if len(first) <= n else first[:n].rsplit(' ', 1)[0].rstrip(',;:') + '…'
+
+
+_gen = ROOT / 'content' / 'pagine.json'
+if _gen.exists():
+    import json as _json
+    for _slug, _p in _json.loads(_gen.read_text())['pagine'].items():
+        _t = _p['titolo'] + ' — Violi Macchine'
+        _d = _p['descrizione'] if _p['tipo'] == 'categoria' else _short(_p['paragrafi'][0])
+        PAGES[_slug + '.html'] = (_t, 'Violi Macchine, ' + _p['titolo'] + ': ' + _d[0].lower() + _d[1:] if _p['tipo'] == 'prodotto' else _d)
 E = lambda s: html.escape(s, quote=True)
 
 ap = argparse.ArgumentParser()

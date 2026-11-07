@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / 'public'
 shutil.rmtree(OUT, ignore_errors=True)
 OUT.mkdir()
-for name in ['index.html', 'catalogo.html', 'per-filo.html', '404.html', 'robots.txt', 'sitemap.xml', '_headers']:
+for name in sorted(p.name for p in ROOT.glob('*.html')) + ['robots.txt', 'sitemap.xml', '_headers']:
     src = ROOT / name
     if src.exists():
         shutil.copy2(src, OUT / name)

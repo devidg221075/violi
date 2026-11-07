@@ -25,7 +25,7 @@ sprite = ('<!--icone--><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true
           'style="position:absolute;width:0;height:0;overflow:hidden"><defs>' + ''.join(defs) + '</defs>'
           + ''.join(symbols) + '</svg><!--/icone-->')
 
-for name in PAGES:
+for name in sorted(p.name for p in ROOT.glob("*.html")):
     p = ROOT / name
     t = p.read_text()
     if '<!--icone-->' in t:
