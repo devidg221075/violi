@@ -5,6 +5,28 @@
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu?.open){menu.open=false;menu.querySelector('summary').focus();}});
   menu?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.open=false;}));
   document.addEventListener('click',e=>{if(menu?.open&&!menu.contains(e.target))menu.open=false;});
+
+  const cf=document.getElementById('contact-form');
+  if(cf){
+    const msg=cf.querySelector('.form-msg');
+    cf.addEventListener('submit',e=>{
+      e.preventDefault();
+      let bad=null;
+      cf.querySelectorAll('[required]').forEach(el=>{
+        const ok=el.type==='checkbox'?el.checked:(el.type==='email'?/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(el.value.trim()):el.value.trim()!=='');
+        el.setAttribute('aria-invalid',ok?'false':'true');
+        if(!ok&&!bad)bad=el;
+      });
+      msg.className='form-msg';
+      if(bad){msg.textContent='Controlla i campi evidenziati: sono obbligatori.';msg.classList.add('err');bad.focus();return;}
+      const f=new FormData(cf);
+      const body=['Nome e cognome: '+f.get('nome'),'Azienda: '+f.get('azienda'),'E-mail: '+f.get('email'),'Telefono: '+f.get('tel'),
+        'Prodotto o impianto: '+(f.get('prodotto')||'-'),'','Richieste e note:',f.get('messaggio')].join('\n');
+      const subject='Richiesta informazioni'+(f.get('prodotto')?' - '+f.get('prodotto'):'');
+      location.href='mailto:'+cf.dataset.mailto+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
+      msg.textContent='Si sta aprendo il tuo programma di posta. Se non si apre, scrivi a '+cf.dataset.mailto+'.';msg.classList.add('ok');
+    });
+  }
   const form=document.getElementById('filters');
   if(!form)return;
   const search=document.getElementById('search'),category=document.getElementById('category'),sector=document.getElementById('sector'),application=document.getElementById('application');

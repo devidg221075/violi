@@ -306,5 +306,152 @@
   "h": 789,
   "sfondo_bianco": true,
   "origine": "https://violimacchine.it/wp-content/uploads/2024/10/Progetto-senza-titolo.png"
+ },
+ "impianti/svolgimento-part05": {
+  "file": "../impianti/svolgimento-part05.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/svolgimento-composizione": {
+  "file": "../impianti/svolgimento-composizione.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/svolgimento-handling": {
+  "file": "../impianti/svolgimento-handling.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/raddrizzatura-rossa": {
+  "file": "../impianti/raddrizzatura-rossa.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/raddrizzatura-impianto": {
+  "file": "../impianti/raddrizzatura-impianto.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/raddrizzatura-macchina": {
+  "file": "../impianti/raddrizzatura-macchina.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/trafilatura-side": {
+  "file": "../impianti/trafilatura-side.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/trafilatura-semiautomatico": {
+  "file": "../impianti/trafilatura-semiautomatico.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/trafilatura-doppio": {
+  "file": "../impianti/trafilatura-doppio.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/triturazione-ctar": {
+  "file": "../impianti/triturazione-ctar.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/triturazione-dic": {
+  "file": "../impianti/triturazione-dic.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/frantumazione-b": {
+  "file": "../impianti/frantumazione-b.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/frantumazione-a": {
+  "file": "../impianti/frantumazione-a.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/impianti-hero": {
+  "file": "../impianti/impianti-hero.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/azienda-cnc": {
+  "file": "../impianti/azienda-cnc.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/azienda-industriale": {
+  "file": "../impianti/azienda-industriale.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/azienda-orafo-1": {
+  "file": "../impianti/azienda-orafo-1.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/azienda-orafo-2": {
+  "file": "../impianti/azienda-orafo-2.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/azienda-orafo-3": {
+  "file": "../impianti/azienda-orafo-3.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/azienda-recupero": {
+  "file": "../impianti/azienda-recupero.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
+ },
+ "impianti/azienda-officina": {
+  "file": "../impianti/azienda-officina.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "violimacchine.it"
  }
 }

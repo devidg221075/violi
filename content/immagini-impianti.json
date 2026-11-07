@@ -1,0 +1,86 @@
+{
+ "svolgimento-part05": {
+  "file": "../impianti/svolgimento-part05.webp",
+  "sfondo_bianco": false
+ },
+ "svolgimento-composizione": {
+  "file": "../impianti/svolgimento-composizione.webp",
+  "sfondo_bianco": true
+ },
+ "svolgimento-handling": {
+  "file": "../impianti/svolgimento-handling.webp",
+  "sfondo_bianco": true
+ },
+ "raddrizzatura-rossa": {
+  "file": "../impianti/raddrizzatura-rossa.webp",
+  "sfondo_bianco": false
+ },
+ "raddrizzatura-impianto": {
+  "file": "../impianti/raddrizzatura-impianto.webp",
+  "sfondo_bianco": true
+ },
+ "raddrizzatura-macchina": {
+  "file": "../impianti/raddrizzatura-macchina.webp",
+  "sfondo_bianco": true
+ },
+ "trafilatura-side": {
+  "file": "../impianti/trafilatura-side.webp",
+  "sfondo_bianco": true
+ },
+ "trafilatura-semiautomatico": {
+  "file": "../impianti/trafilatura-semiautomatico.webp",
+  "sfondo_bianco": true
+ },
+ "trafilatura-doppio": {
+  "file": "../impianti/trafilatura-doppio.webp",
+  "sfondo_bianco": true
+ },
+ "triturazione-ctar": {
+  "file": "../impianti/triturazione-ctar.webp",
+  "sfondo_bianco": true
+ },
+ "triturazione-dic": {
+  "file": "../impianti/triturazione-dic.webp",
+  "sfondo_bianco": true
+ },
+ "frantumazione-b": {
+  "file": "../impianti/frantumazione-b.webp",
+  "sfondo_bianco": true
+ },
+ "frantumazione-a": {
+  "file": "../impianti/frantumazione-a.webp",
+  "sfondo_bianco": true
+ },
+ "impianti-hero": {
+  "file": "../impianti/impianti-hero.webp",
+  "sfondo_bianco": false
+ },
+ "azienda-cnc": {
+  "file": "../impianti/azienda-cnc.webp",
+  "sfondo_bianco": false
+ },
+ "azienda-industriale": {
+  "file": "../impianti/azienda-industriale.webp",
+  "sfondo_bianco": false
+ },
+ "azienda-orafo-1": {
+  "file": "../impianti/azienda-orafo-1.webp",
+  "sfondo_bianco": false
+ },
+ "azienda-orafo-2": {
+  "file": "../impianti/azienda-orafo-2.webp",
+  "sfondo_bianco": false
+ },
+ "azienda-orafo-3": {
+  "file": "../impianti/azienda-orafo-3.webp",
+  "sfondo_bianco": false
+ },
+ "azienda-recupero": {
+  "file": "../impianti/azienda-recupero.webp",
+  "sfondo_bianco": false
+ },
+ "azienda-officina": {
+  "file": "../impianti/azienda-officina.webp",
+  "sfondo_bianco": false
+ }
+}

@@ -33,10 +33,25 @@ def _short(text, n=158):
 _gen = ROOT / 'content' / 'pagine.json'
 if _gen.exists():
     import json as _json
+    _D = {
+        'impianti': 'Impianti Violi Macchine: trafilatura e raddrizzatura tubi, svolgimento e avvolgimento, triturazione e compattazione del truciolo, frantumazione e recupero di metalli preziosi.',
+        'azienda': 'Chi è Violi Macchine: progettazione, ricerca e innovazione Made in Italy da oltre 30 anni, nella sede di Monte San Savino (Arezzo).',
+        'contatti': 'Contatti Violi Macchine S.r.l.: Via XXV Aprile 86, Monte San Savino (AR). Telefono +39 0575 810487, e-mail sales@violimacchine.it.',
+        'news-ed-eventi': 'News ed eventi di Violi Macchine: fiere e appuntamenti di settore.',
+    }
     for _slug, _p in _json.loads(_gen.read_text())['pagine'].items():
         _t = _p['titolo'] + ' — Violi Macchine'
-        _d = _p['descrizione'] if _p['tipo'] == 'categoria' else _short(_p['paragrafi'][0])
-        PAGES[_slug + '.html'] = (_t, 'Violi Macchine, ' + _p['titolo'] + ': ' + _d[0].lower() + _d[1:] if _p['tipo'] == 'prodotto' else _d)
+        if _p['tipo'] == 'categoria':
+            _desc = _p['descrizione']
+        elif _p['tipo'] in ('prodotto', 'impianto'):
+            _d = _short(_p['paragrafi'][0])
+            _desc = 'Violi Macchine, ' + _p['titolo'] + ': ' + _d[0].lower() + _d[1:]
+        else:
+            _desc = _D[_slug]
+        if _p['tipo'] == 'azienda':
+            _t = 'Azienda — Violi Macchine'
+        PAGES[_slug + '.html'] = (_t, _desc)
+
 E = lambda s: html.escape(s, quote=True)
 
 ap = argparse.ArgumentParser()

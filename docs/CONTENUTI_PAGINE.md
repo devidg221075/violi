@@ -6,7 +6,15 @@ senza aggiunte. I testi sono in `content/pagine.json`, le foto in `assets/foto/p
 
 Rigenerare le pagine: `python3 tools/build_pages.py && python3 tools/build_seo.py && python3 tools/build_sprite.py`.
 
-## Pagine create (25)
+## Gruppo 2 (11 pagine, aggiunte dopo)
+- **Impianti**: indice e 7 schede (`impianti-*.html`).
+- **Azienda** (`azienda.html`), **Contatti** (`contatti.html`, modulo che apre la posta) e **News ed eventi** (`news-ed-eventi.html`, 1 articolo).
+- **Privacy e Cookie policy**: non copiate. Il sito ufficiale le ospita su iubenda; il piè di pagina collega quelle pagine (testo legale non riscritto).
+- **Contatti**: compare anche il referente per India e GCC (JTE DMCC, Mr. Tarun Thadeshwar) come sul sito ufficiale: confermare che sia ancora valido.
+- **Foto**: 21 da violimacchine.it in `assets/foto/impianti/`; la pagina "recupero schede" riusa la foto del prodotto perché l'originale non era scaricabile. Esclusa una foto di officina con volto riconoscibile.
+- I testi sono copiati senza correzioni: restano alcuni refusi dell'originale (spazi prima della punteggiatura, "l 'avviamento").
+
+## Pagine create nel gruppo 1 (25)
 - 4 categorie: Per Tubo, Per Bricchettare Trucioli, Per Ceneri, Per Catalizzatori.
 - 21 schede prodotto (Per Filo 3, Per Tubo 5, Lavaggio, Pulitura, Trucioli 2, Ceneri 5, Catalizzatori 3, Schede elettroniche).
 

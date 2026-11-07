@@ -467,6 +467,250 @@
     "mulino-per-catalizzatori-metallici.webp"
    ],
    "fonte": "https://violimacchine.it/it/prodotti/per-catalizzatori"
+  },
+  "impianti-svolgimento-avvolgimento-tubi": {
+   "tipo": "impianto",
+   "categoria": "impianti",
+   "titolo": "Impianti di svolgimento e avvolgimento tubi",
+   "paragrafi": [
+    "Gli impianti VM/I-AST e VM/I-ASB sono progettati per permettere lo svolgimento di matasse o bobine di tubi in varie misure, il loro raddrizzamento e il successivo passaggio attraverso processi intermedi (es. ricottura, controllo qualità, ecc.), per poi procedere al riavvolgimento e alla ricomposizione della matassa o della bobina originale.",
+    "VM/I-AST e VM/I-ASB sono conformi alle normative europee applicabili.",
+    "La velocità di lavoro, la potenza e la lunghezza dell’impianto sono variabili in base alle esigenze del cliente."
+   ],
+   "vantaggi": [],
+   "immagini": [
+    "../impianti/svolgimento-part05.webp",
+    "../impianti/svolgimento-composizione.webp",
+    "../impianti/svolgimento-handling.webp"
+   ],
+   "correlato": null,
+   "ricambi": false,
+   "fonte": "https://violimacchine.it/it/impianti/impianti-avvolgimento-svolgimento-tubi"
+  },
+  "impianti-raddrizzatura-tubi": {
+   "tipo": "impianto",
+   "categoria": "impianti",
+   "titolo": "Impianti raddrizzatura tubi",
+   "paragrafi": [
+    "La serie di raddrizzatrici a rulli iperbolici Violi è ideale per la raddrizzatura di tubi e barre in metallo trafilati a freddo con diametri compresi tra 3 e 65 mm. Grazie all’esperienza ed alla continua ricerca e sviluppo di nuove tecnologie, tutte le raddrizzatrici standard possono essere corredate su richiesta di una serie di automazioni in ingresso ed uscita tubo manuali, semi- automatiche o totalmente automatiche.",
+    "I vantaggi che il cliente riscontra utilizzando gli impianti di raddrizzatura Violi:"
+   ],
+   "vantaggi": [
+    "Aumento della produzione aziendale",
+    "Maggior precisione nel processo di raddrizzatura",
+    "Gestione ergonomica del processo"
+   ],
+   "immagini": [
+    "../impianti/raddrizzatura-rossa.webp",
+    "../impianti/raddrizzatura-impianto.webp",
+    "../impianti/raddrizzatura-macchina.webp"
+   ],
+   "correlato": {
+    "testo": "Raddrizzatrici per tubo",
+    "url": "per-tubo-raddrizzatrici.html"
+   },
+   "ricambi": true,
+   "fonte": "https://violimacchine.it/it/impianti/impianti-raddrizzatura-tubi-5"
+  },
+  "impianti-trafilatura-tubi-automatici": {
+   "tipo": "impianto",
+   "categoria": "impianti",
+   "titolo": "Impianti automatici trafilatura tubi",
+   "paragrafi": [
+    "La consolidata esperienza nel settore e la continua ricerca e sviluppo di nuove tecnologie permettono a Violi di progettare e costruire impianti di trafilatura totalmente automatici.",
+    "Gli impianti sono composti da un banco trafila idraulico con una potenza di tiro e lunghezza utile a richiesta e da una struttura anteriore per ancoraggio oscillante del mandrino interno . Porta foro regolabile ed adattabile alle filiere utilizzate. L’impianto è dotato di un sistema esclusivo che permette l ’avviamento della trafilatura in maniera graduale grazie alla programmazione della potenza e velocità . Il carico e l’espulsione dei tubi è automatico; i tubi trafilati vengono depositati sull’apposito magazzino laterale senza interruzione del ciclo.",
+    "Tutti i movimenti vengono realizzati in sicurezza adoperando sensori, fotocellule e barriere metalliche . La velocità di lavoro e la potenza massima di trafilatura variabili sono regolabili tramite Pannello Touch.",
+    "La logica dell’impianto permette di determinare tutte le operazioni in corso di lavorazione. Possibilità di inserire le ricette e quindi di poterle riprendere.",
+    "Caratteristiche tecniche variabili secondo le esigenze del cliente.",
+    "I vantaggi che i clienti riscontrano grazie all’utilizzo degli impianti di trafilatura Violi:"
+   ],
+   "vantaggi": [
+    "Aumento della produzione aziendale",
+    "Maggior precisione nel processo di trafilatura dovuto alla tecnologia brevettata del banco trafila idraulico",
+    "Gestione ergonomica del processo"
+   ],
+   "immagini": [
+    "../impianti/trafilatura-side.webp",
+    "../impianti/trafilatura-semiautomatico.webp"
+   ],
+   "correlato": {
+    "testo": "Trafile idrauliche per tubi",
+    "url": "per-tubo-trafile-idrauliche.html"
+   },
+   "ricambi": true,
+   "fonte": "https://violimacchine.it/it/impianti/impianti-trafilatura-tubi-automatici"
+  },
+  "impianti-trafilatura-doppio": {
+   "tipo": "impianto",
+   "categoria": "impianti",
+   "titolo": "Impianto di trafilatura automatico doppio con taglio barre trafilate",
+   "paragrafi": [
+    "L’impianto di trafilatura automatico doppio è composto da devolgitori indipendenti a pantografo per la regolazione del diametro interno della matassa di filo. Unica struttura con doppio tiro di trafilatura indipendente con possibilità di trafilare diametri e lunghezze diverse. Carrelli di trafilatura indipendenti azionati tramite pistoni idraulici. Doppi Gruppi indipendenti di taglio tramite sega completi di pinze per il bloccaggio del tubo. Taglio fisso anteriore e taglio mobile sul carrello programmabile a misura. L’impianto è dotato di un sistema esclusivo, che permette l’avviamento graduale della potenza e velocità di trafilatura. L’espulsione dei tubi lavorati è automatica, i quali vengono depositati tramite pick places nei magazzini laterali adiacenti senza interruzione del ciclo. L’impianto è dotato di pompa di lubrificazione e serbatoio a circuito chiuso adeguati al tipo di olio utilizzato . Tutti i movimenti vengono realizzati in sicurezza adoperando sensori, fotocellule e barriere metalliche. Tutti i dati di lavoro sono regolabili tramite Pannello Touch o da controllo da remoto. La logica dell’impianto, oltre a determinare tutti paremetri di lavorazioni, ha la possibilità di inserire le ricette e poterle richiamare all’occorrenza.",
+    "Caratteristiche tecniche variabili secondo le esigenze del cliente."
+   ],
+   "vantaggi": [],
+   "immagini": [
+    "../impianti/trafilatura-doppio.webp"
+   ],
+   "correlato": {
+    "testo": "Trafile idrauliche per tubi",
+    "url": "per-tubo-trafile-idrauliche.html"
+   },
+   "ricambi": true,
+   "fonte": "https://violimacchine.it/it/impianti/impianto-di-trafilatura-doppio-automatico-con-taglio-barre-trafilate"
+  },
+  "impianti-triturazione-compattazione": {
+   "tipo": "impianto",
+   "categoria": "impianti",
+   "titolo": "Impianto automatico triturazione e compattazione truciolo",
+   "paragrafi": [
+    "Questi impianti nascono dall’esigenza di compattare truciolo prettamente lungo derivante da lavorazioni meccaniche. Violi produce bricchettatrici per trucioli per compattare trucioli derivanti da tornitura, fresatura o diamantatura di qualsiasi genere e dimensione sia in metallo prezioso che nobile.",
+    "Sono completi di sensori di presenza prodotto per la gestione automatica del processo.",
+    "La movimentazione è racchiusa in idonei pannelli con porta di sicurezza e il ciclo è gestito da PLC.",
+    "Tali impianti possono essere implementati con un sistema di sollevamento e ribaltamento cassonetti",
+    "I vantaggi che il cliente ha riscontrato:"
+   ],
+   "vantaggi": [
+    "Riduzione volume dei trucioli fino al 90%",
+    "Le bricchette rendono gli ambienti di lavoro organizzati ed efficienti",
+    "Maggior margine sulla vendita ai centri di raccolta",
+    "Recupero olii o emulsioni fino al 80%",
+    "Riduzione impatto ambientale"
+   ],
+   "immagini": [
+    "../impianti/triturazione-ctar.webp",
+    "../impianti/triturazione-dic.webp"
+   ],
+   "correlato": {
+    "testo": "Bricchettatrici per truciolo",
+    "url": "per-bricchettare-trucioli-truciolo.html"
+   },
+   "ricambi": false,
+   "fonte": "https://violimacchine.it/it/impianti/impianti-automatici-triturazione-e-compattazione-truciolo"
+  },
+  "impianti-recupero-schede-elettroniche": {
+   "tipo": "impianto",
+   "categoria": "impianti",
+   "titolo": "Impianto automatico recupero metalli preziosi da schede elettroniche",
+   "paragrafi": [
+    "Il recupero dei metalli nobili derivanti da scarti di lavorazione è un tema fondamentale per il ciclo produttivo di aziende che operano nei settori più diversi. La separatrice di componenti della serie VM/STCR è una macchina brevettata che consente di separare i componenti da schede elettroniche. A partire dalla separatrice fino ad arrivare al processo di fusione, Violi propone una vasta gamma di macchinari ideali per il recupero di metalli preziosi in totale sicurezza e semplicità di gestione."
+   ],
+   "vantaggi": [],
+   "immagini": [
+    "separatrice-di-componenti-da-schede-elettroniche.webp"
+   ],
+   "correlato": {
+    "testo": "Separatrice di componenti da schede elettroniche",
+    "url": "separatrice-schede-elettroniche.html"
+   },
+   "ricambi": true,
+   "fonte": "https://violimacchine.it/it/impianti/impianto-automatico-recupero-metalli-preziosi-da-schede-elettroniche"
+  },
+  "impianti-frantumazione": {
+   "tipo": "impianto",
+   "categoria": "impianti",
+   "titolo": "Impianto automatico di frantumazione",
+   "paragrafi": [
+    "L’impianto VM/JMP5 permette la frantumazione di molteplici materiali di natura inerte. Il sistema è estremamente silenzioso ed ha possibilità di regolare l’apertura delle ganasce in modo da scegliere la dimensione dei materiali da macinare (da 0. 5 a 1. 5/3. 0 cm). L’impianto è costituito da una tramoggia con uno scivolo vibrante ed un nastro trasportatore per il convogliamento in automatico del prodotto nel mulino ganasce.",
+    "Tutti i mulini a ganasce Violi possono essere corredati di automazione.",
+    "L’impianto è costruito in conformità alle normative europee applicabili."
+   ],
+   "vantaggi": [],
+   "immagini": [
+    "../impianti/frantumazione-b.webp",
+    "../impianti/frantumazione-a.webp"
+   ],
+   "correlato": {
+    "testo": "Mulino a ganasce",
+    "url": "per-ceneri-mulino-a-ganasce.html"
+   },
+   "ricambi": true,
+   "fonte": "https://violimacchine.it/it/impianti/impianto-automatico-di-frantumazione"
+  },
+  "impianti": {
+   "tipo": "indice-impianti",
+   "titolo": "Impianti",
+   "intro": "Ricerca e sviluppo di tecnologie all’avanguardia sono i principi cardine dell’azienda.",
+   "impianti": [
+    "impianti-svolgimento-avvolgimento-tubi",
+    "impianti-raddrizzatura-tubi",
+    "impianti-trafilatura-tubi-automatici",
+    "impianti-trafilatura-doppio",
+    "impianti-triturazione-compattazione",
+    "impianti-recupero-schede-elettroniche",
+    "impianti-frantumazione"
+   ],
+   "immagini": [
+    "../impianti/impianti-hero.webp"
+   ],
+   "fonte": "https://violimacchine.it/it/impianti"
+  },
+  "azienda": {
+   "tipo": "azienda",
+   "titolo": "Chi è Violi Macchine",
+   "fonte": "https://violimacchine.it/it/azienda-macchinari-orafi-recupero-metalli-preziosi-industrie",
+   "sezioni": [
+    {
+     "titolo": "Chi è Violi Macchine",
+     "testo": [
+      "Grazie all’esperienza trentennale nella progettazione e produzione di macchine per il settore orafo, Violi nel corso del tempo ottiene la fiducia di molteplici realtà nel settore industriale e del recupero metalli preziosi.",
+      "Oggi l’azienda, facendo un lavoro di costante ricerca e sviluppo dei propri prodotti, è partner di importanti aziende nazionali ed internazionali."
+     ]
+    },
+    {
+     "titolo": "Progettazione",
+     "testo": [
+      "Ricerca e sviluppo di nuove tecnologie sono i principi cardine dell’azienda. Il punto di partenza è l’esigenza del cliente; si cerca sempre partendo dalle tecnologie standard, di implementare processi di produzione affinché risultino più efficienti."
+     ]
+    },
+    {
+     "titolo": "Ricerca",
+     "testo": [
+      "La fase del progetto, totalmente gestita dai nostri ingegneri, è uno dei valori aggiunti delle tecnologie Violi. Il design dei nostri prodotti è armonia tra semplicità d’uso, tecnologie all’avanguardia ed alte prestazioni di lavoro."
+     ]
+    },
+    {
+     "titolo": "Innovazione",
+     "testo": [
+      "La capacità di fornire macchinari innovativi senza perdere di vista i sistemi tradizionali è caratteristica principale delle nostre tecnologie. Il know how acquisito in oltre 30 anni d’esperienza permette di innovare i nostri macchinari mantenendo la tradizione."
+     ]
+    },
+    {
+     "titolo": "Una missione di qualità",
+     "testo": [
+      "Violi si impegna da oltre 30 anni a fornire prodotti totalmente Made In Italy. Tutte le fasi di ricerca, progettuali e produttive si concentrano infatti nella nostra sede di Monte San Savino."
+     ]
+    },
+    {
+     "titolo": "Diamo forma alle tue esigenze",
+     "testo": [
+      "Violi, attenta alle esigenze del mercato, si dedica da sempre ad un modo di progettare, produrre e distribuire, che consiste nel dialogo diretto tra produttore e cliente. Ogni macchinario può essere progettato e costruito secondo specifiche richieste. La sinergia tra cliente e Violi Permette di produrre tecnologie all’avanguardia ed altamente performanti."
+     ]
+    }
+   ]
+  },
+  "contatti": {
+   "tipo": "contatti",
+   "titolo": "Contatti",
+   "fonte": "https://violimacchine.it/it/contatti"
+  },
+  "news-ed-eventi": {
+   "tipo": "news",
+   "titolo": "News ed eventi",
+   "fonte": "https://violimacchine.it/it/news-ed-eventi",
+   "articoli": [
+    {
+     "id": "ipmi-eu-chapter-2026",
+     "titolo": "Violi Macchine – IPMI EU CHAPTER 2026",
+     "data": "IPMI EU CHAPTER 2026 15.11.2026 – 17.11.2026",
+     "testo": [
+      "Siamo felici di annunciare la nostra partecipazione al meeting dell’IPMI European Chapter, uno degli appuntamenti di riferimento per l’industria e il recupero dei metalli preziosi. Da anni Violi Macchine sviluppa soluzioni tecnologiche avanzate per l’ottimizzazione dei processi produttivi e il recupero dei metalli preziosi. L’evento rappresenta un’importante occasione di confronto con i principali player del settore su innovazione, sostenibilità ed efficienza nei processi di recupero e lavorazione.",
+      "📍 Passa a trovarci per scoprire le nostre tecnologie e discutere insieme delle migliori soluzioni Hotel Marriot, Atene"
+     ],
+     "contatto": "marketing@violimacchine.it",
+     "categoria": "Fiere"
+    }
+   ]
   }
  }
 }
