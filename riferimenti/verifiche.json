@@ -1,0 +1,59 @@
+{
+  "files": [
+    {
+      "file": "index.html",
+      "categories": 8,
+      "families": 0,
+      "featured": 0,
+      "h1": 1
+    },
+    {
+      "file": "per-filo-autonomo.html",
+      "categories": 0,
+      "families": 4,
+      "featured": 0,
+      "h1": 1
+    },
+    {
+      "file": "catalogo-autonomo.html",
+      "categories": 8,
+      "families": 0,
+      "featured": 3,
+      "h1": 1
+    },
+    {
+      "file": "per-filo.html",
+      "categories": 0,
+      "families": 4,
+      "featured": 0,
+      "h1": 1
+    },
+    {
+      "file": "index-autonomo.html",
+      "categories": 8,
+      "families": 0,
+      "featured": 0,
+      "h1": 1
+    },
+    {
+      "file": "catalogo.html",
+      "categories": 8,
+      "families": 0,
+      "featured": 3,
+      "h1": 1
+    }
+  ],
+  "brokenLocalLinks": [],
+  "officialLogoUnchanged": true,
+  "browserChecks": [
+    "homepage desktop + 390px + 320px",
+    "catalogo desktop 1440px + mobile 390px",
+    "Per Filo desktop 1440px + mobile 390px",
+    "search filo",
+    "empty state + reset",
+    "sector recupero",
+    "two-product comparison + close",
+    "mobile menu + navigation",
+    "standalone pictures and search"
+  ]
+}
