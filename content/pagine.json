@@ -84,6 +84,9 @@
     "Le raddrizzatrici per filo con taglio al volo tramite cesoia o sega della serie VM/MRTVC-S permettono partendo da matassa o bobina, di raddrizzare e tagliare in automatico fili o tubi con diametri fino a 8 mm. Il taglio avviene alla lunghezza desiderata e senza fermare l’avanzamento durante l’operazione di taglio."
    ],
    "immagini": [
+    "../archivio/cesoia-1.webp",
+    "../archivio/cesoia-2.webp",
+    "../archivio/cesoia-3.webp",
     "violi-macchina-raddrizzatrice-1b-hr.webp",
     "raddrizzatrici-per-filo-con-taglio-al-volo.webp",
     "img-7304-ok.webp"
@@ -305,8 +308,10 @@
     "Può essere utilizzato in maniera manuale o installato all’interno di un sistema di frantumazione automatica."
    ],
    "immagini": [
-    "img-1719.webp",
-    "f9693143-f9e1-48d1-9ed3-e2b70e5914b4-1.webp"
+    "../archivio/mulino-ma50-aperto.webp",
+    "../archivio/mulino-ma50-chiuso.webp",
+    "../archivio/mulino-16lug-aperto.webp",
+    "../archivio/mulino-16lug-chiuso.webp"
    ],
    "correlato": {
     "testo": "Miscelatori per ceneri",
@@ -392,8 +397,8 @@
     "Il mulino a ganasce Violi è ideale per la frantumazione di catalizzatori di tipo ceramico o metallico. Esso permette di ridurre le dimensioni del catalizzatore per favorire i processi di molinatura e miscelazione. Può essere utilizzato in maniera manuale o installato all’interno di un sistema di frantumazione automatica."
    ],
    "immagini": [
-    "img-1719.webp",
-    "f9693143-f9e1-48d1-9ed3-e2b70e5914b4-1.webp"
+    "../archivio/mulino-ma20-aperto.webp",
+    "../archivio/mulino-ma20-chiuso.webp"
    ],
    "correlato": {
     "testo": "Mulini per catalizzatori metallici",
@@ -639,8 +644,10 @@
    ],
    "vantaggi": [],
    "immagini": [
-    "../impianti/frantumazione-b.webp",
-    "../impianti/frantumazione-a.webp"
+    "../archivio/mulino-800-b.webp",
+    "../archivio/mulino-800-c.webp",
+    "../archivio/mulino-800-a.webp",
+    "../archivio/mulino-800-d.webp"
    ],
    "correlato": {
     "testo": "Mulino a ganasce",
