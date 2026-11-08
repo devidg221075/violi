@@ -284,7 +284,7 @@ def page_indice_impianti(slug, p, c):
 
 def page_azienda(slug, p, c):
     S = {x['titolo']: x for x in p['sezioni']}
-    pics = ['azienda-industriale', 'azienda-orafo-1', 'azienda-orafo-3', 'azienda-recupero', 'azienda-officina']
+    pics = ['../archivio/az-progettazione', '../archivio/az-ricerca', '../archivio/az-innovazione', '../archivio/officina-2', '../archivio/az-su-misura']
     intro = S['Chi è Violi Macchine']
     hero = hero_block([('Home', 'index.html'), ('Azienda', None)], 'Chi è Violi Macchine', '', '../sede-violi.webp',
                       btn('Scopri i prodotti', 'catalogo.html') + f'<a class="button secondary" href="contatti.html">Contattaci {ICO("freccia-destra", "ico ico-arrow")}</a>',
@@ -295,11 +295,15 @@ def page_azienda(slug, p, c):
     for i, n in enumerate(names):
         x = S[n]
         anchor = ' id="qualita"' if n == 'Una missione di qualità' else ''
-        rows += (f'<article class="about-row{" rev" if i % 2 else ""}"{anchor}><div class="about-photo">{photo("../impianti/" + pics[i] + ".webp", n + " — Violi Macchine")}</div>'
+        rows += (f'<article class="about-row{" rev" if i % 2 else ""}"{anchor}><div class="about-photo">{photo(pics[i] + ".webp", n + " — Violi Macchine")}</div>'
                  f'<div class="about-text"><p class="eyebrow">{E(n)}</p><h2>{E(n)}</h2>' + ''.join(f'<p>{E(t)}</p>' for t in x['testo']) + '</div></article>')
+    officina = [('officina-1', 'Saldatura in reparto'), ('officina-3', 'Finitura delle strutture'), ('officina-4', 'Smerigliatura'), ('tornio-cnc', 'Tornio a controllo numerico'), ('fresa-cnc', 'Fresatura'), ('ingranaggi', 'Ingranaggi di un gruppo meccanico')]
+    shots = ''.join(f'<figure class="shot">{photo("../archivio/" + f + ".webp", t + " — Violi Macchine")}</figure>' for f, t in officina)
+    reparto = ('<section class="wrap section gallery" id="reparto"><div class="section-heading"><div><p class="eyebrow">In officina</p><h2>Dove nascono le macchine</h2></div></div>'
+               f'<div class="gallery-grid g3">{shots}</div></section>')
     num = ('<section class="wrap section"><dl class="stats stats-row"><div><dt>2.000+</dt><dd>Macchine e impianti</dd></div><div><dt>50+</dt><dd>Paesi</dd></div>'
            '<div><dt>30+</dt><dd>Anni di esperienza</dd></div></dl></section>')
-    return '<main id="main">' + hero + chi + '<section class="wrap section about">' + rows + '</section>' + num + cta_for(c['cta'], 'Contatto da pagina Azienda') + '</main>'
+    return '<main id="main">' + hero + chi + '<section class="wrap section about">' + rows + '</section>' + reparto + num + cta_for(c['cta'], 'Contatto da pagina Azienda') + '</main>'
 
 
 def page_contatti(slug, p, c):

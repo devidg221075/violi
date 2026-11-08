@@ -68,8 +68,10 @@
     "Le trafilatrici per filo Bull Block permettono di trafilare filo e tubi di medio e grande diametro provenienti da laminatoio, ulteriori lavorazioni o filo da colata continua. La macchina permette di trafilare tramite dei fori portando il filo alle dimensioni ideali per poter essere lavorato ulteriormente dalle trafile a passaggi multipli. Il diametro dei cabestani viene concordato con il cliente."
    ],
    "immagini": [
-    "bull-block-maxi-aperta.webp",
-    "bull-block-maxi.webp"
+    "../archivio/bull-block-maxi-aperta.webp",
+    "../archivio/bull-block-maxi.webp",
+    "../archivio/bull-block-mini-aperta.webp",
+    "../archivio/bull-block-mini.webp"
    ],
    "correlato": null,
    "fonte": "https://violimacchine.it/it/prodotti/per-filo/trafile-per-filo-bull-block"
@@ -194,12 +196,13 @@
     "Modello innovativo ed altamente performante è la lavatrice ad ultrasuoni VM ULS con sistema di ricircolo acqua a sfioro."
    ],
    "immagini": [
-    "ok-6lavatrice-acciaio-2porte.webp",
-    "lavatrici-ad-ultrasuoni.webp",
-    "ok-5lavatrice-acciaio-2porte.webp",
-    "ok-21lavatrice-acciaio-2porte.webp",
-    "ok-4lavatrice-acciaio-2porte.webp",
-    "ok-1lavatrice-acciaio.webp"
+    "../home/ultrasuoni-lavatrice-chiusa.webp",
+    "../archivio/lavatrice-2porte.webp",
+    "../archivio/lavatrice-2porte-b.webp",
+    "../home/ultrasuoni-vasche-aperte.webp",
+    "../home/ultrasuoni-supporti-vasca.webp",
+    "../home/ultrasuoni-supporti-dettaglio.webp",
+    "../archivio/lavatrice-supporti-ganci.webp"
    ],
    "correlato": null,
    "fonte": "https://violimacchine.it/it/prodotti/per-lavaggio-ultrasuoni/lavatrici-ad-ultrasuoni"
@@ -212,9 +215,10 @@
     "I banchi pulitrice Violi VM/2P sono ideali per la pulitura e smerigliatura manuale di oggetti in metallo prezioso. L’innovazione delle pulitrici Violi è data dal sistema aspirazione, silenzioso e potente, tramite filtri autopulenti e da un filtro assoluto che permette di evitare qualsiasi dispersione di metallo."
    ],
    "immagini": [
-    "banco-pulitrice-per-orafi-2.webp",
-    "dsf7757.webp",
-    "ok-pulitrice2pm-front-copia.webp"
+    "../archivio/pulitrice-front.webp",
+    "../archivio/pulitrice-3q.webp",
+    "../archivio/pulitrice-motore.webp",
+    "../archivio/pulitrice-vano.webp"
    ],
    "correlato": null,
    "fonte": "https://violimacchine.it/it/prodotti/per-pulitura/banco-pulitrice-per-orafi"
@@ -230,8 +234,11 @@
     "Scegliendo la serie di bricchettatrici VM S23 si possono raggiungere elevati standard di produttività."
    ],
    "immagini": [
-    "progetto-senza-titolo-1.webp",
-    "progetto-senza-titolo.webp"
+    "../archivio/bricchettatrice-s23.webp",
+    "../archivio/s23-tramoggia.webp",
+    "../archivio/s23-idraulica.webp",
+    "../archivio/s23-uscita.webp",
+    "../archivio/s23-ingranaggi.webp"
    ],
    "correlato": {
     "testo": "Bricchettatrici per truciolo di metalli preziosi",
@@ -279,9 +286,8 @@
     "I miscelatori per ceneri della serie VM/MX sono ideali per miscelare ed omogeneizzare polveri di materiali secchi ottenuti da cicli di frantumazione. Il processo avviene in modo rapido ed efficace e può essere applicato anche a prodotti granulari. Questo processo è indispensabile per prelevare campionature per le successive analisi delle polveri."
    ],
    "immagini": [
-    "miscelatori-per-ceneri.webp",
-    "miscelatore.webp",
-    "violi-macchina-2-front-c-lr.webp"
+    "../archivio/miscelatore.webp",
+    "../archivio/miscelatore-front.webp"
    ],
    "correlato": {
     "testo": "Mulini per ceneri",
@@ -737,10 +743,12 @@
     "Equipaggiabili di bobinatore totalmente elettronico, le trafilatrici Violi permettono di produrre fili anche molto sottili con standard qualitativi elevati."
    ],
    "immagini": [
-    "trafile-a-passaggi-multipli-per-filo.webp",
-    "trafila-front.webp",
-    "trafila-chiusa-02.webp",
-    "01-trafila-14passaggi-aperta.webp"
+    "../archivio/trafila-14p-aperta.webp",
+    "../archivio/trafila-14p-chiusa.webp",
+    "../archivio/trafila-6p-aperta.webp",
+    "../archivio/trafila-14p-coni.webp",
+    "../archivio/trafila-14p-dettaglio.webp",
+    "../archivio/trafila-coni-ugelli.webp"
    ],
    "correlato": {
     "testo": "Bobinatore per filo",

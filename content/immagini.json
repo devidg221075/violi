@@ -586,5 +586,313 @@
   "w": 0,
   "h": 0,
   "origine": "cliente"
+ },
+ "archivio/trafila-14p-aperta": {
+  "file": "../archivio/trafila-14p-aperta.webp",
+  "sfondo_bianco": true,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/trafila-14p-chiusa": {
+  "file": "../archivio/trafila-14p-chiusa.webp",
+  "sfondo_bianco": true,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/trafila-6p-aperta": {
+  "file": "../archivio/trafila-6p-aperta.webp",
+  "sfondo_bianco": true,
+  "w": 1500,
+  "h": 1500,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/trafila-6p-chiusa": {
+  "file": "../archivio/trafila-6p-chiusa.webp",
+  "sfondo_bianco": true,
+  "w": 1500,
+  "h": 1500,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/trafila-14p-coni": {
+  "file": "../archivio/trafila-14p-coni.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/trafila-14p-dettaglio": {
+  "file": "../archivio/trafila-14p-dettaglio.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/trafila-dettaglio-bobina": {
+  "file": "../archivio/trafila-dettaglio-bobina.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/trafila-coni-ugelli": {
+  "file": "../archivio/trafila-coni-ugelli.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/bull-block-maxi-aperta": {
+  "file": "../archivio/bull-block-maxi-aperta.webp",
+  "sfondo_bianco": true,
+  "w": 1500,
+  "h": 1500,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/bull-block-maxi": {
+  "file": "../archivio/bull-block-maxi.webp",
+  "sfondo_bianco": true,
+  "w": 1500,
+  "h": 1500,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/bull-block-mini-aperta": {
+  "file": "../archivio/bull-block-mini-aperta.webp",
+  "sfondo_bianco": true,
+  "w": 1500,
+  "h": 1500,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/bull-block-mini": {
+  "file": "../archivio/bull-block-mini.webp",
+  "sfondo_bianco": true,
+  "w": 1500,
+  "h": 1500,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/lavatrice-2porte": {
+  "file": "../archivio/lavatrice-2porte.webp",
+  "sfondo_bianco": true,
+  "w": 1500,
+  "h": 1500,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/lavatrice-2porte-b": {
+  "file": "../archivio/lavatrice-2porte-b.webp",
+  "sfondo_bianco": true,
+  "w": 1500,
+  "h": 1500,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/lavatrice-supporti-ganci": {
+  "file": "../archivio/lavatrice-supporti-ganci.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/pulitrice-front": {
+  "file": "../archivio/pulitrice-front.webp",
+  "sfondo_bianco": true,
+  "w": 1500,
+  "h": 1500,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/pulitrice-3q": {
+  "file": "../archivio/pulitrice-3q.webp",
+  "sfondo_bianco": true,
+  "w": 1500,
+  "h": 1500,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/pulitrice-motore": {
+  "file": "../archivio/pulitrice-motore.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/pulitrice-vano": {
+  "file": "../archivio/pulitrice-vano.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/bricchettatrice-s23": {
+  "file": "../archivio/bricchettatrice-s23.webp",
+  "sfondo_bianco": true,
+  "w": 1500,
+  "h": 1500,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/s23-tramoggia": {
+  "file": "../archivio/s23-tramoggia.webp",
+  "sfondo_bianco": false,
+  "w": 1000,
+  "h": 1500,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/s23-idraulica": {
+  "file": "../archivio/s23-idraulica.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/s23-uscita": {
+  "file": "../archivio/s23-uscita.webp",
+  "sfondo_bianco": false,
+  "w": 1000,
+  "h": 1500,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/s23-ingranaggi": {
+  "file": "../archivio/s23-ingranaggi.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/miscelatore": {
+  "file": "../archivio/miscelatore.webp",
+  "sfondo_bianco": true,
+  "w": 1500,
+  "h": 1500,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/miscelatore-front": {
+  "file": "../archivio/miscelatore-front.webp",
+  "sfondo_bianco": true,
+  "w": 1500,
+  "h": 1500,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/az-progettazione": {
+  "file": "../archivio/az-progettazione.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/az-ricerca": {
+  "file": "../archivio/az-ricerca.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/az-innovazione": {
+  "file": "../archivio/az-innovazione.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/az-su-misura": {
+  "file": "../archivio/az-su-misura.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/az-montaggio": {
+  "file": "../archivio/az-montaggio.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/officina-1": {
+  "file": "../archivio/officina-1.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/officina-2": {
+  "file": "../archivio/officina-2.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/officina-3": {
+  "file": "../archivio/officina-3.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/officina-4": {
+  "file": "../archivio/officina-4.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/tornio-cnc": {
+  "file": "../archivio/tornio-cnc.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/fresa-cnc": {
+  "file": "../archivio/fresa-cnc.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/ingranaggi": {
+  "file": "../archivio/ingranaggi.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/componenti-lavorati": {
+  "file": "../archivio/componenti-lavorati.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "archivio/componenti-rulli": {
+  "file": "../archivio/componenti-rulli.webp",
+  "sfondo_bianco": false,
+  "w": 1500,
+  "h": 1000,
+  "origine": "cliente (Archivio.zip)"
+ },
+ "home/ultrasuoni-lavatrice-chiusa": {
+  "file": "../home/ultrasuoni-lavatrice-chiusa.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
+ },
+ "home/ultrasuoni-vasche-aperte": {
+  "file": "../home/ultrasuoni-vasche-aperte.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
+ },
+ "home/ultrasuoni-supporti-vasca": {
+  "file": "../home/ultrasuoni-supporti-vasca.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
+ },
+ "home/ultrasuoni-supporti-dettaglio": {
+  "file": "../home/ultrasuoni-supporti-dettaglio.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
  }
 }
