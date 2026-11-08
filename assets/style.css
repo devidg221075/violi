@@ -3868,3 +3868,22 @@ th {
 .hero-text .hero-inner {
   padding-block:var(--s4) var(--s4)
 }
+
+/* Home desktop: foto reali delle card dentro la scheda, senza tagli laterali */
+@media(min-width:951px) {
+  .home-grid .photo.ph {
+    left:0;
+    width:100%;
+    transform:none;
+    aspect-ratio:auto!important
+  }
+  .home-grid .photo.ph {
+    top:0;
+    bottom:0;
+    height:100%!important
+  }
+  .home-grid .photo.ph img,.home-grid .photo.ph.contain img {
+    object-fit:cover!important;
+    object-position:50% 50%
+  }
+}
