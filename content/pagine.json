@@ -51,8 +51,11 @@
     "Il bobinatore può essere applicato su tutte le nostre trafile a passaggi multipli per filo."
    ],
    "immagini": [
-    "bobinatoredabanco-01.webp",
-    "bobinatoredabanco-02.webp"
+    "../home/bobinatore-banco-cofano-aperto.webp",
+    "../home/bobinatore-banco-chiuso.webp",
+    "../home/bobinatore-banco-dettaglio-rulli.webp",
+    "../home/bobinatore-banco-dettaglio-motore.webp",
+    "../home/bobinatore-banco-ruota-tiro.webp"
    ],
    "correlato": null,
    "fonte": "https://violimacchine.it/it/prodotti/per-filo/bobinatore-per-filo"

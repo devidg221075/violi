@@ -551,5 +551,40 @@
   "w": 0,
   "h": 0,
   "origine": "cliente"
+ },
+ "home/bobinatore-banco-cofano-aperto": {
+  "file": "../home/bobinatore-banco-cofano-aperto.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
+ },
+ "home/bobinatore-banco-chiuso": {
+  "file": "../home/bobinatore-banco-chiuso.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
+ },
+ "home/bobinatore-banco-dettaglio-rulli": {
+  "file": "../home/bobinatore-banco-dettaglio-rulli.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
+ },
+ "home/bobinatore-banco-dettaglio-motore": {
+  "file": "../home/bobinatore-banco-dettaglio-motore.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
+ },
+ "home/bobinatore-banco-ruota-tiro": {
+  "file": "../home/bobinatore-banco-ruota-tiro.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
  }
 }
