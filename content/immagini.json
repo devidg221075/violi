@@ -481,5 +481,47 @@
   "w": 1400,
   "h": 761,
   "origine": "violimacchine.it"
+ },
+ "home/raddrizzatrice-rulli": {
+  "file": "../home/raddrizzatrice-rulli.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
+ },
+ "home/raddrizzatrice-tavoli": {
+  "file": "../home/raddrizzatrice-tavoli.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
+ },
+ "home/raddrizzatrice-rulli-frontale-aperta": {
+  "file": "../home/raddrizzatrice-rulli-frontale-aperta.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
+ },
+ "home/raddrizzatrice-rulli-volantini": {
+  "file": "../home/raddrizzatrice-rulli-volantini.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
+ },
+ "home/raddrizzatrice-rulli-pannello-comandi": {
+  "file": "../home/raddrizzatrice-rulli-pannello-comandi.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
+ },
+ "home/raddrizzatrice-rulli-dettaglio-rulli": {
+  "file": "../home/raddrizzatrice-rulli-dettaglio-rulli.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
  }
 }

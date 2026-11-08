@@ -130,8 +130,11 @@
     "Le raddrizzatubo Violi sono macchine a rulli iperbolici ideali per raddrizzare tubi o tondi trafilati dopo il processo di trafilatura o laminazione con diametri fino a 65 mm."
    ],
    "immagini": [
-    "ok-raddrizzatrice-0.webp",
-    "violi-raddrizzatore-aut-a-rulli-fr-hr.webp"
+    "../home/raddrizzatrice-rulli.webp",
+    "../home/raddrizzatrice-rulli-frontale-aperta.webp",
+    "../home/raddrizzatrice-rulli-volantini.webp",
+    "../home/raddrizzatrice-rulli-pannello-comandi.webp",
+    "../home/raddrizzatrice-rulli-dettaglio-rulli.webp"
    ],
    "correlato": {
     "testo": "Impianto raddrizzatura tubi",
@@ -503,7 +506,9 @@
    "immagini": [
     "../impianti/raddrizzatura-rossa.webp",
     "../impianti/raddrizzatura-impianto.webp",
-    "../impianti/raddrizzatura-macchina.webp"
+    "../home/raddrizzatrice-tavoli.webp",
+    "../home/raddrizzatrice-rulli-frontale-aperta.webp",
+    "../home/raddrizzatrice-rulli-dettaglio-rulli.webp"
    ],
    "correlato": {
     "testo": "Raddrizzatrici per tubo",
