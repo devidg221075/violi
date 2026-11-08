@@ -96,8 +96,11 @@
     "L’azienda costruisce inoltre molteplici attrezzature per la lavorazione di tubi tra cui smandrinatori manuali, motorizzati ed appuntatrici."
    ],
    "immagini": [
-    "violi-hydraulic-drawing-kit-b-hr.webp",
-    "trafila-aperta-1-2.webp"
+    "../home/trafila-idraulica-aperta.webp",
+    "../home/trafila-idraulica-chiusa.webp",
+    "../home/trafila-idraulica-comandi.webp",
+    "../home/trafila-idraulica-soffietto.webp",
+    "violi-hydraulic-drawing-kit-b-hr.webp"
    ],
    "correlato": {
     "testo": "Impianto automatico trafilatura tubi",
@@ -535,6 +538,9 @@
     "Gestione ergonomica del processo"
    ],
    "immagini": [
+    "../home/trafila-idraulica-aperta.webp",
+    "../home/trafila-idraulica-comandi.webp",
+    "../home/trafila-idraulica-soffietto.webp",
     "../impianti/trafilatura-side.webp",
     "../impianti/trafilatura-semiautomatico.webp"
    ],
@@ -555,7 +561,9 @@
    ],
    "vantaggi": [],
    "immagini": [
-    "../impianti/trafilatura-doppio.webp"
+    "../impianti/trafilatura-doppio.webp",
+    "../home/trafila-idraulica-chiusa.webp",
+    "../home/trafila-idraulica-soffietto.webp"
    ],
    "correlato": {
     "testo": "Trafile idrauliche per tubi",

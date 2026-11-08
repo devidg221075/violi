@@ -523,5 +523,33 @@
   "w": 0,
   "h": 0,
   "origine": "cliente"
+ },
+ "home/trafila-idraulica-aperta": {
+  "file": "../home/trafila-idraulica-aperta.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
+ },
+ "home/trafila-idraulica-chiusa": {
+  "file": "../home/trafila-idraulica-chiusa.webp",
+  "sfondo_bianco": true,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
+ },
+ "home/trafila-idraulica-comandi": {
+  "file": "../home/trafila-idraulica-comandi.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
+ },
+ "home/trafila-idraulica-soffietto": {
+  "file": "../home/trafila-idraulica-soffietto.webp",
+  "sfondo_bianco": false,
+  "w": 0,
+  "h": 0,
+  "origine": "cliente"
  }
 }
