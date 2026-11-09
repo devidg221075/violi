@@ -1,0 +1,767 @@
+{
+ "categorie": {
+  "per-filo": {
+   "titolo": "Per Filo",
+   "id": "filo",
+   "file": "per-filo.html"
+  },
+  "per-tubo": {
+   "titolo": "Per Tubo",
+   "id": "tubo",
+   "file": "per-tubo.html"
+  },
+  "per-lavaggio-ultrasuoni": {
+   "titolo": "Per Lavaggio ad Ultrasuoni",
+   "id": "ultrasuoni",
+   "file": "lavatrici-ad-ultrasuoni.html"
+  },
+  "per-pulitura": {
+   "titolo": "Per Pulitura",
+   "id": "pulitura",
+   "file": "banco-pulitrice-per-orafi.html"
+  },
+  "per-bricchettare-trucioli": {
+   "titolo": "Per Bricchettare Trucioli",
+   "id": "trucioli",
+   "file": "per-bricchettare-trucioli.html"
+  },
+  "per-ceneri": {
+   "titolo": "Per Ceneri",
+   "id": "ceneri",
+   "file": "per-ceneri.html"
+  },
+  "per-catalizzatori": {
+   "titolo": "Per Catalizzatori",
+   "id": "catalizzatori",
+   "file": "per-catalizzatori.html"
+  },
+  "per-schede-elettroniche": {
+   "titolo": "Per Schede Elettroniche",
+   "id": "schede",
+   "file": "separatrice-schede-elettroniche.html"
+  }
+ },
+ "pagine": {
+  "per-filo-bobinatore": {
+   "tipo": "prodotto",
+   "categoria": "per-filo",
+   "titolo": "Bobinatore per filo",
+   "paragrafi": [
+    "VM/GBV è un dispositivo progettato e realizzato per la bobinatura di fili particolarmente sottili. Dotato di controllo elettronico, potenziometro per la regolazione coppia di tiro ed ulteriori innovazioni, permette di ottenere un prodotto finale di qualità.",
+    "Il bobinatore può essere applicato su tutte le nostre trafile a passaggi multipli per filo."
+   ],
+   "immagini": [
+    "../home/bobinatore-banco-cofano-aperto.webp",
+    "../home/bobinatore-banco-chiuso.webp",
+    "../home/bobinatore-banco-dettaglio-rulli.webp",
+    "../home/bobinatore-banco-dettaglio-motore.webp",
+    "../home/bobinatore-banco-ruota-tiro.webp"
+   ],
+   "correlato": null,
+   "fonte": "https://violimacchine.it/it/prodotti/per-filo/bobinatore-per-filo"
+  },
+  "per-filo-bull-block": {
+   "tipo": "prodotto",
+   "categoria": "per-filo",
+   "titolo": "Trafile per filo Bull Block",
+   "paragrafi": [
+    "Le trafilatrici per filo Bull Block permettono di trafilare filo e tubi di medio e grande diametro provenienti da laminatoio, ulteriori lavorazioni o filo da colata continua. La macchina permette di trafilare tramite dei fori portando il filo alle dimensioni ideali per poter essere lavorato ulteriormente dalle trafile a passaggi multipli. Il diametro dei cabestani viene concordato con il cliente."
+   ],
+   "immagini": [
+    "../archivio/bull-block-maxi-aperta.webp",
+    "../archivio/bull-block-maxi.webp",
+    "../archivio/bull-block-mini-aperta.webp",
+    "../archivio/bull-block-mini.webp"
+   ],
+   "correlato": null,
+   "fonte": "https://violimacchine.it/it/prodotti/per-filo/trafile-per-filo-bull-block"
+  },
+  "per-filo-raddrizzatrici": {
+   "tipo": "prodotto",
+   "categoria": "per-filo",
+   "titolo": "Raddrizzatrici per filo con taglio al volo",
+   "paragrafi": [
+    "Le raddrizzatrici per filo con taglio al volo tramite cesoia o sega della serie VM/MRTVC-S permettono partendo da matassa o bobina, di raddrizzare e tagliare in automatico fili o tubi con diametri fino a 8 mm. Il taglio avviene alla lunghezza desiderata e senza fermare l’avanzamento durante l’operazione di taglio."
+   ],
+   "immagini": [
+    "../archivio/cesoia-1.webp",
+    "../archivio/cesoia-2.webp",
+    "../archivio/cesoia-3.webp",
+    "violi-macchina-raddrizzatrice-1b-hr.webp",
+    "raddrizzatrici-per-filo-con-taglio-al-volo.webp",
+    "img-7304-ok.webp"
+   ],
+   "correlato": null,
+   "fonte": "https://violimacchine.it/it/prodotti/per-filo/raddrizzatrici-per-filo-con-taglio-al-volo"
+  },
+  "per-tubo-trafile-idrauliche": {
+   "tipo": "prodotto",
+   "categoria": "per-tubo",
+   "titolo": "Trafile idrauliche per tubo",
+   "paragrafi": [
+    "Le trafile idrauliche brevettate Violi, sono ideali per trafilare tubi o barre di molteplici materiali con sezione circolare oppure a profilo complesso e sono in grado di garantire elevatissimi standard di precisione del prodotto finito. Sono realizzate in diverse versioni sia di potenza che di lunghezza utile.",
+    "Violi produce inoltre trafile idrauliche corredate da kit per appuntare il tubo ideali per il settore orafo anche per la produzione di fedi.",
+    "L’azienda costruisce inoltre molteplici attrezzature per la lavorazione di tubi tra cui smandrinatori manuali, motorizzati ed appuntatrici."
+   ],
+   "immagini": [
+    "../home/trafila-idraulica-aperta.webp",
+    "../home/trafila-idraulica-chiusa.webp",
+    "../home/trafila-idraulica-comandi.webp",
+    "../home/trafila-idraulica-soffietto.webp",
+    "violi-hydraulic-drawing-kit-b-hr.webp"
+   ],
+   "correlato": {
+    "testo": "Impianto automatico trafilatura tubi",
+    "url": "https://violimacchine.it/it/impianti/impianti-trafilatura-tubi-automatici"
+   },
+   "fonte": "https://violimacchine.it/it/prodotti/per-tubo/trafile-idrauliche-per-tubo"
+  },
+  "per-tubo-appuntatrici": {
+   "tipo": "prodotto",
+   "categoria": "per-tubo",
+   "titolo": "Appuntatrici per tubo",
+   "paragrafi": [
+    "VM/APT è una linea di apparecchiature ideate per rastremare tubi al fine di ridurne il diametro in una oppure entrambe le estremità. In applicazioni di trafilatura, per esempio, questa riduzione consente la presa da parte del gruppo di ancoraggio."
+   ],
+   "immagini": [
+    "5m1a9533-ok.webp",
+    "5m1a9537-ok.webp"
+   ],
+   "correlato": {
+    "testo": "Impianto raddrizzatura tubi",
+    "url": "https://violimacchine.it/it/impianti/impianti-raddrizzatura-tubi-5"
+   },
+   "fonte": "https://violimacchine.it/it/prodotti/per-tubo/appuntatrici-per-tubo"
+  },
+  "per-tubo-raddrizzatrici": {
+   "tipo": "prodotto",
+   "categoria": "per-tubo",
+   "titolo": "Raddrizzatubo",
+   "paragrafi": [
+    "Le raddrizzatubo Violi sono macchine a rulli iperbolici ideali per raddrizzare tubi o tondi trafilati dopo il processo di trafilatura o laminazione con diametri fino a 65 mm."
+   ],
+   "immagini": [
+    "../home/raddrizzatrice-rulli.webp",
+    "../home/raddrizzatrice-rulli-frontale-aperta.webp",
+    "../home/raddrizzatrice-rulli-volantini.webp",
+    "../home/raddrizzatrice-rulli-pannello-comandi.webp",
+    "../home/raddrizzatrice-rulli-dettaglio-rulli.webp"
+   ],
+   "correlato": {
+    "testo": "Impianto raddrizzatura tubi",
+    "url": "https://violimacchine.it/it/impianti/impianti-raddrizzatura-tubi-5"
+   },
+   "fonte": "https://violimacchine.it/it/prodotti/per-tubo/raddrizzatrici-per-tubo"
+  },
+  "per-tubo-tagliatubo": {
+   "tipo": "prodotto",
+   "categoria": "per-tubo",
+   "titolo": "Tagliatubo",
+   "paragrafi": [
+    "La serie di tagliatubo Violi è ideale per tagliare manualmente o in automatico per mezzo di una sega, porzioni di tubo aventi diametro massimo di 75 mm.",
+    "Questo macchinario viene generalmente utilizzato nell’ambito della produzione di fedi e bracciali"
+   ],
+   "immagini": [
+    "tagliafedi-automatica-ttf1.webp",
+    "5m1a9537-ok.webp"
+   ],
+   "correlato": {
+    "testo": "Impianto automatico trafilatura tubi",
+    "url": "https://violimacchine.it/it/impianti/impianti-trafilatura-tubi-automatici"
+   },
+   "fonte": "https://violimacchine.it/it/prodotti/per-tubo/tagliatubo"
+  },
+  "per-tubo-raddrizzatrici-profili": {
+   "tipo": "prodotto",
+   "categoria": "per-tubo",
+   "titolo": "Raddrizzatrici per profili",
+   "paragrafi": [
+    "Le raddrizzatrici per profili Violi sono state progettate e costruite per raddrizzare barre e tubi in metallo con profilo quadro, rettangolare e a forma complessa. La macchina è costituita da due gruppi di 7 rulli tutti motorizzati. Memorizzazione dei programmi di lavoro per differenti tipi e misure dei profili. Le raddrizzatrici per profili Violi sono corredabili di sistema di taglio al volo tramite cesoia o sega che permette di tagliare il profilo senza fermarne l’avanzamento."
+   ],
+   "immagini": [
+    "img-9904-ok.webp",
+    "violi-profiles-straightening-b-hr.webp",
+    "progetto-06.webp"
+   ],
+   "correlato": {
+    "testo": "Impianto raddrizzatura tubi",
+    "url": "https://violimacchine.it/it/impianti/impianti-raddrizzatura-tubi-5"
+   },
+   "fonte": "https://violimacchine.it/it/prodotti/per-tubo/raddrizzatrici-per-profili"
+  },
+  "lavatrici-ad-ultrasuoni": {
+   "tipo": "prodotto",
+   "categoria": "per-lavaggio-ultrasuoni",
+   "titolo": "Lavatrici ad ultrasuoni",
+   "paragrafi": [
+    "Le lavatrici ad ultrasuoni VM UL sono ideali per il lavaggio di componentistica varia nelle industrie meccaniche, galvaniche, orafe e dentale, nell’industria automotiva e industria di genere. Possono avere dimensioni da 30 a 230 litri e possono essere personalizzate secondo le esigenze del cliente.",
+    "La particolarità delle lavatrici ad ultrasuoni Violi è l’elevata potenza e la robustezza che permettono una pulitura ottimale e durata nel tempo.",
+    "Modello innovativo ed altamente performante è la lavatrice ad ultrasuoni VM ULS con sistema di ricircolo acqua a sfioro."
+   ],
+   "immagini": [
+    "../home/ultrasuoni-lavatrice-chiusa.webp",
+    "../archivio/lavatrice-2porte.webp",
+    "../archivio/lavatrice-2porte-b.webp",
+    "../home/ultrasuoni-vasche-aperte.webp",
+    "../home/ultrasuoni-supporti-vasca.webp",
+    "../home/ultrasuoni-supporti-dettaglio.webp",
+    "../archivio/lavatrice-supporti-ganci.webp"
+   ],
+   "correlato": null,
+   "fonte": "https://violimacchine.it/it/prodotti/per-lavaggio-ultrasuoni/lavatrici-ad-ultrasuoni"
+  },
+  "banco-pulitrice-per-orafi": {
+   "tipo": "prodotto",
+   "categoria": "per-pulitura",
+   "titolo": "Banco pulitrice per orafi",
+   "paragrafi": [
+    "I banchi pulitrice Violi VM/2P sono ideali per la pulitura e smerigliatura manuale di oggetti in metallo prezioso. L’innovazione delle pulitrici Violi è data dal sistema aspirazione, silenzioso e potente, tramite filtri autopulenti e da un filtro assoluto che permette di evitare qualsiasi dispersione di metallo."
+   ],
+   "immagini": [
+    "../archivio/pulitrice-front.webp",
+    "../archivio/pulitrice-3q.webp",
+    "../archivio/pulitrice-motore.webp",
+    "../archivio/pulitrice-vano.webp"
+   ],
+   "correlato": null,
+   "fonte": "https://violimacchine.it/it/prodotti/per-pulitura/banco-pulitrice-per-orafi"
+  },
+  "per-bricchettare-trucioli-truciolo": {
+   "tipo": "prodotto",
+   "categoria": "per-bricchettare-trucioli",
+   "titolo": "Bricchettatrici per truciolo",
+   "paragrafi": [
+    "Le bricchettatrici Violi della serie VM CTA sono ideali per bricchettare trucioli derivanti da macchine utensili. Esse riducono in maniera rilevante il volume del truciolo ripulendolo dalla maggior parte dei liquidi assimilati.",
+    "Questi macchinari permettono di compattare truciolo corto o lungo di molteplici materiali quali: alluminio, acciaio, ottone, fanghi da rettifica e tanti altri.",
+    "Le bricchettatrici Violi della serie VM CTA sono adatte (nel caso di truciolo corto) al posizionamento diretto sotto una macchina utensile oppure, grazie all’applicazione di un trituratore, alla compattazione di truciolo lungo.",
+    "Scegliendo la serie di bricchettatrici VM S23 si possono raggiungere elevati standard di produttività."
+   ],
+   "immagini": [
+    "../archivio/bricchettatrice-s23.webp",
+    "../archivio/s23-tramoggia.webp",
+    "../archivio/s23-idraulica.webp",
+    "../archivio/s23-uscita.webp",
+    "../archivio/s23-ingranaggi.webp"
+   ],
+   "correlato": {
+    "testo": "Bricchettatrici per truciolo di metalli preziosi",
+    "url": "per-bricchettare-trucioli-metalli-preziosi.html"
+   },
+   "fonte": "https://violimacchine.it/it/prodotti/per-bricchettare-trucioli/bricchettatrici-per-truciolo"
+  },
+  "per-bricchettare-trucioli-metalli-preziosi": {
+   "tipo": "prodotto",
+   "categoria": "per-bricchettare-trucioli",
+   "titolo": "Bricchettatrici per truciolo di metalli preziosi",
+   "paragrafi": [
+    "La bricchettatrice VM GB1 è ideale per bricchettare trucioli di metalli preziosi derivanti da diamantatura, pantografi o macchine CNC, con dimensioni particolarmente piccole. I materiali bricchettabili sono: oro, argento, platino ed altri metalli preziosi.",
+    "I compattatori della serie VM CIT sono invece ideali per compattare trucioli derivanti da processi di tranciatura, tornitura, fili galvanici e molti altri con dimensioni particolarmente elevate.",
+    "Le bricchette ottenute dalla compressione permettono di privare il truciolo degli olii assimilati durante le precedenti lavorazioni e di conseguenza di aumentare la resa in fusione limitando la dispersione di metalli preziosi."
+   ],
+   "immagini": [
+    "violi-macchina-02-hr.webp",
+    "violi-macchina-02-a-hr.webp"
+   ],
+   "correlato": null,
+   "fonte": "https://violimacchine.it/it/prodotti/per-bricchettare-trucioli/bricchettatrici-per-truciolo-di-metalli-preziosi"
+  },
+  "per-ceneri-mulini-a-sfere": {
+   "tipo": "prodotto",
+   "categoria": "per-ceneri",
+   "titolo": "Mulini a sfere per ceneri",
+   "paragrafi": [
+    "I mulini a sfere Violi sono ideali per la frantumazione di materiali secchi di varia natura come: ceneri, scorie di fusione, ceramiche, catalizzatori, crogioli e materiali refrattari di vario genere. Il processo avviene a ciclo continuo separando e filtrando le polveri ottenute attraverso una rete. Nei mulini per ceneri manuali la rimozione dei grossami avviene manualmente, in quelli automatici la parte non frantumata esce da un condotto laterale in automatico."
+   ],
+   "immagini": [
+    "mulini-per-ceneri.webp"
+   ],
+   "correlato": {
+    "testo": "Miscelatori per ceneri",
+    "url": "per-ceneri-miscelatori.html"
+   },
+   "fonte": "https://violimacchine.it/it/prodotti/per-ceneri/mulini-a-sfere-per-ceneri"
+  },
+  "per-ceneri-miscelatori": {
+   "tipo": "prodotto",
+   "categoria": "per-ceneri",
+   "titolo": "Miscelatori per ceneri",
+   "paragrafi": [
+    "I miscelatori per ceneri della serie VM/MX sono ideali per miscelare ed omogeneizzare polveri di materiali secchi ottenuti da cicli di frantumazione. Il processo avviene in modo rapido ed efficace e può essere applicato anche a prodotti granulari. Questo processo è indispensabile per prelevare campionature per le successive analisi delle polveri."
+   ],
+   "immagini": [
+    "../archivio/miscelatore.webp",
+    "../archivio/miscelatore-front.webp"
+   ],
+   "correlato": {
+    "testo": "Mulini per ceneri",
+    "url": "per-ceneri-mulini-a-sfere.html"
+   },
+   "fonte": "https://violimacchine.it/it/prodotti/per-ceneri/miscelatori-per-ceneri"
+  },
+  "per-ceneri-mulino-a-ganasce": {
+   "tipo": "prodotto",
+   "categoria": "per-ceneri",
+   "titolo": "Mulino a ganasce",
+   "paragrafi": [
+    "Il mulino a ganasce Violi è ideale per la frantumazione di crogioli e molteplici materiali refrattari.",
+    "Esso permette di ridurre le dimensioni del materiale per favorire i processi di molinatura e miscelazione.",
+    "Può essere utilizzato in maniera manuale o installato all’interno di un sistema di frantumazione automatica."
+   ],
+   "immagini": [
+    "../archivio/mulino-ma50-aperto.webp",
+    "../archivio/mulino-ma50-chiuso.webp",
+    "../archivio/mulino-16lug-aperto.webp",
+    "../archivio/mulino-16lug-chiuso.webp"
+   ],
+   "correlato": {
+    "testo": "Miscelatori per ceneri",
+    "url": "per-ceneri-miscelatori.html"
+   },
+   "fonte": "https://violimacchine.it/it/prodotti/per-ceneri/mulino-a-ganasce"
+  },
+  "per-ceneri-campionatore-rotativo": {
+   "tipo": "prodotto",
+   "categoria": "per-ceneri",
+   "titolo": "Campionatore rotativo",
+   "paragrafi": [
+    "Il campionatore rotativo normalmente viene applicato sotto un mulino a palle e viene utilizzato per convogliare una certa percentuale di polvere lavorata dal mulino in un apposito condotto con bocchetta registrabile."
+   ],
+   "immagini": [
+    "progetto-senza-titolo-3.webp",
+    "5m1a9537-ok.webp"
+   ],
+   "correlato": {
+    "testo": "Miscelatori per ceneri",
+    "url": "per-ceneri-miscelatori.html"
+   },
+   "fonte": "https://violimacchine.it/it/prodotti/per-ceneri/campionatore-rotativo"
+  },
+  "per-ceneri-forni-a-microonde": {
+   "tipo": "prodotto",
+   "categoria": "per-ceneri",
+   "titolo": "Forni a microonde",
+   "paragrafi": [
+    "I forni a microonde VM FMW sono ideali per la carbonizzazione di residui di lavorazione. Sfruttando il principio della pirolisi generano la carbonizzazione di residui organici in completa assenza di ossigeno, così da ridurre al minimo la formazione di fumi e conseguenti emissioni di sostanze tossiche e diossine.",
+    "Il calore viene innescato tramite microonde per fare in modo che il prodotto venga carbonizzato alla presenza di atmosfera inerte all’interno della camera del forno. Il processo avviene rapidamente ed in perfetta sicurezza."
+   ],
+   "immagini": [
+    "forno-a-microonde-scontornata.webp"
+   ],
+   "correlato": {
+    "testo": "Mulini per ceneri",
+    "url": "per-ceneri-mulini-a-sfere.html"
+   },
+   "fonte": "https://violimacchine.it/it/prodotti/per-ceneri/forni-a-microonde"
+  },
+  "per-catalizzatori-mulini-a-sfere-ceramici": {
+   "tipo": "prodotto",
+   "categoria": "per-catalizzatori",
+   "titolo": "Mulini a sfere per catalizzatori ceramici",
+   "paragrafi": [
+    "I mulini a sfere Violi sono ideali per la frantumazione di materiali secchi di varia natura come: scorie di fusione, ceneri e ceramiche ottenute da processi di carbonizzazione, crogioli e materiali refrattari di vario genere, sono inoltre ideali per la frantumazione e separazione di catalizzatori ceramici.",
+    "Il processo avviene a ciclo continuo separando e filtrando le polveri ottenute attraverso una rete.",
+    "La rimozione dei grossami ( parti metalliche non frantumate) sulla base del modello si può agire in due modi diversi: nei mulini per ceneri manuali è necessario rimuovere il coperchio del rotore ed azionare il moto per lo scarico, nei mulini automatici è sufficiente invertire la rotazione del rotore per far uscire i grossami dal condotto laterale."
+   ],
+   "immagini": [
+    "mulino-per-catalizzatori-metallici.webp",
+    "ok-mulino-part.webp"
+   ],
+   "correlato": {
+    "testo": "Mulini per catalizzatori metallici",
+    "url": "per-catalizzatori-mulini-metallici.html"
+   },
+   "fonte": "https://violimacchine.it/it/prodotti/per-catalizzatori/mulini-a-sfere-per-catalizzatori-ceramici"
+  },
+  "per-catalizzatori-mulini-metallici": {
+   "tipo": "prodotto",
+   "categoria": "per-catalizzatori",
+   "titolo": "Mulini per catalizzatori metallici",
+   "paragrafi": [
+    "Il mulino VM MC è ideale per la frantumazione di catalizzatori metallici. Esso permette la massima valorizzazione ed il recupero delle polveri contenute al loro interno."
+   ],
+   "immagini": [
+    "mulino-per-catalizzatori-metallicik.webp",
+    "5m1a8537-ok.webp"
+   ],
+   "correlato": {
+    "testo": "Mulini per catalizzatori ceramici",
+    "url": "per-catalizzatori-mulini-a-sfere-ceramici.html"
+   },
+   "fonte": "https://violimacchine.it/it/prodotti/per-catalizzatori/mulini-per-catalizzatori-metallici"
+  },
+  "per-catalizzatori-mulino-a-ganasce": {
+   "tipo": "prodotto",
+   "categoria": "per-catalizzatori",
+   "titolo": "Mulino a ganasce per catalizzatori",
+   "paragrafi": [
+    "Il mulino a ganasce Violi è ideale per la frantumazione di catalizzatori di tipo ceramico o metallico. Esso permette di ridurre le dimensioni del catalizzatore per favorire i processi di molinatura e miscelazione. Può essere utilizzato in maniera manuale o installato all’interno di un sistema di frantumazione automatica."
+   ],
+   "immagini": [
+    "../archivio/mulino-ma20-aperto.webp",
+    "../archivio/mulino-ma20-chiuso.webp"
+   ],
+   "correlato": {
+    "testo": "Mulini per catalizzatori metallici",
+    "url": "per-catalizzatori-mulini-metallici.html"
+   },
+   "fonte": "https://violimacchine.it/it/prodotti/per-catalizzatori/mulino-a-ganasce-per-catalizzatori"
+  },
+  "separatrice-schede-elettroniche": {
+   "tipo": "prodotto",
+   "categoria": "per-schede-elettroniche",
+   "titolo": "Separatrice di componenti da schede elettroniche",
+   "paragrafi": [
+    "Il recupero dei metalli nobili derivanti da scarti è un tema fondamentale per il ciclo produttivo di molteplici aziende.",
+    "La separatrice di componenti della serie VM STCR è una macchina brevettata che consente di separare i componenti da schede elettroniche.",
+    "La macchina è costituita da un trasportatore speciale che attraversa un tunnel riscaldato da resistenze elettriche e da riscaldatori industriali ad aria che garantiscono la fusione dello stagno di saldatura dei componenti elettronici"
+   ],
+   "immagini": [
+    "separatrice-di-componenti-da-schede-elettroniche.webp",
+    "pera.webp"
+   ],
+   "correlato": {
+    "testo": "Impianto automatico recupero metalli preziosi da schede elettroniche",
+    "url": "https://violimacchine.it/it/impianti/impianto-automatico-recupero-metalli-preziosi-da-schede-elettroniche"
+   },
+   "fonte": "https://violimacchine.it/it/prodotti/per-schede-elettroniche/separatrice-di-componenti-da-schede-elettroniche"
+  },
+  "per-tubo": {
+   "tipo": "categoria",
+   "categoria": "per-tubo",
+   "titolo": "Per Tubo",
+   "descrizione": "Soluzioni complete per la produzione, la formatura e la lavorazione di tubi metallici.",
+   "prodotti": [
+    "per-tubo-trafile-idrauliche",
+    "per-tubo-appuntatrici",
+    "per-tubo-raddrizzatrici",
+    "per-tubo-tagliatubo",
+    "per-tubo-raddrizzatrici-profili"
+   ],
+   "immagini": [
+    "violi-hydraulic-drawing-kit-b-hr.webp"
+   ],
+   "fonte": "https://violimacchine.it/it/prodotti/per-tubo"
+  },
+  "per-bricchettare-trucioli": {
+   "tipo": "categoria",
+   "categoria": "per-bricchettare-trucioli",
+   "titolo": "Per Bricchettare Trucioli",
+   "descrizione": "Sistemi di compattazione per il recupero e la valorizzazione dei trucioli metallici.",
+   "prodotti": [
+    "per-bricchettare-trucioli-truciolo",
+    "per-bricchettare-trucioli-metalli-preziosi"
+   ],
+   "immagini": [
+    "progetto-senza-titolo-1.webp"
+   ],
+   "fonte": "https://violimacchine.it/it/prodotti/per-bricchettare-trucioli"
+  },
+  "per-ceneri": {
+   "tipo": "categoria",
+   "categoria": "per-ceneri",
+   "titolo": "Per Ceneri",
+   "descrizione": "Impianti per la raccolta, il trattamento e la compattazione delle ceneri di processo.",
+   "prodotti": [
+    "per-ceneri-mulini-a-sfere",
+    "per-ceneri-miscelatori",
+    "per-ceneri-mulino-a-ganasce",
+    "per-ceneri-campionatore-rotativo",
+    "per-ceneri-forni-a-microonde"
+   ],
+   "immagini": [
+    "mulini-per-ceneri.webp"
+   ],
+   "fonte": "https://violimacchine.it/it/prodotti/per-ceneri"
+  },
+  "per-catalizzatori": {
+   "tipo": "categoria",
+   "categoria": "per-catalizzatori",
+   "titolo": "Per Catalizzatori",
+   "descrizione": "Soluzioni per la lavorazione, la gestione e il riciclo dei catalizzatori industriali.",
+   "prodotti": [
+    "per-catalizzatori-mulini-a-sfere-ceramici",
+    "per-catalizzatori-mulini-metallici",
+    "per-catalizzatori-mulino-a-ganasce"
+   ],
+   "immagini": [
+    "mulino-per-catalizzatori-metallici.webp"
+   ],
+   "fonte": "https://violimacchine.it/it/prodotti/per-catalizzatori"
+  },
+  "impianti-svolgimento-avvolgimento-tubi": {
+   "tipo": "impianto",
+   "categoria": "impianti",
+   "titolo": "Impianti di svolgimento e avvolgimento tubi",
+   "paragrafi": [
+    "Gli impianti VM/I-AST e VM/I-ASB sono progettati per permettere lo svolgimento di matasse o bobine di tubi in varie misure, il loro raddrizzamento e il successivo passaggio attraverso processi intermedi (es. ricottura, controllo qualità, ecc.), per poi procedere al riavvolgimento e alla ricomposizione della matassa o della bobina originale.",
+    "VM/I-AST e VM/I-ASB sono conformi alle normative europee applicabili.",
+    "La velocità di lavoro, la potenza e la lunghezza dell’impianto sono variabili in base alle esigenze del cliente."
+   ],
+   "vantaggi": [],
+   "immagini": [
+    "../impianti/svolgimento-part05.webp",
+    "../impianti/svolgimento-composizione.webp",
+    "../impianti/svolgimento-handling.webp"
+   ],
+   "correlato": null,
+   "ricambi": false,
+   "fonte": "https://violimacchine.it/it/impianti/impianti-avvolgimento-svolgimento-tubi"
+  },
+  "impianti-raddrizzatura-tubi": {
+   "tipo": "impianto",
+   "categoria": "impianti",
+   "titolo": "Impianti raddrizzatura tubi",
+   "paragrafi": [
+    "La serie di raddrizzatrici a rulli iperbolici Violi è ideale per la raddrizzatura di tubi e barre in metallo trafilati a freddo con diametri compresi tra 3 e 65 mm. Grazie all’esperienza ed alla continua ricerca e sviluppo di nuove tecnologie, tutte le raddrizzatrici standard possono essere corredate su richiesta di una serie di automazioni in ingresso ed uscita tubo manuali, semi- automatiche o totalmente automatiche.",
+    "I vantaggi che il cliente riscontra utilizzando gli impianti di raddrizzatura Violi:"
+   ],
+   "vantaggi": [
+    "Aumento della produzione aziendale",
+    "Maggior precisione nel processo di raddrizzatura",
+    "Gestione ergonomica del processo"
+   ],
+   "immagini": [
+    "../impianti/raddrizzatura-rossa.webp",
+    "../impianti/raddrizzatura-impianto.webp",
+    "../home/raddrizzatrice-tavoli.webp",
+    "../home/raddrizzatrice-rulli-frontale-aperta.webp",
+    "../home/raddrizzatrice-rulli-dettaglio-rulli.webp"
+   ],
+   "correlato": {
+    "testo": "Raddrizzatrici per tubo",
+    "url": "per-tubo-raddrizzatrici.html"
+   },
+   "ricambi": true,
+   "fonte": "https://violimacchine.it/it/impianti/impianti-raddrizzatura-tubi-5"
+  },
+  "impianti-trafilatura-tubi-automatici": {
+   "tipo": "impianto",
+   "categoria": "impianti",
+   "titolo": "Impianti automatici trafilatura tubi",
+   "paragrafi": [
+    "La consolidata esperienza nel settore e la continua ricerca e sviluppo di nuove tecnologie permettono a Violi di progettare e costruire impianti di trafilatura totalmente automatici.",
+    "Gli impianti sono composti da un banco trafila idraulico con una potenza di tiro e lunghezza utile a richiesta e da una struttura anteriore per ancoraggio oscillante del mandrino interno. Porta foro regolabile ed adattabile alle filiere utilizzate. L’impianto è dotato di un sistema esclusivo che permette l’avviamento della trafilatura in maniera graduale grazie alla programmazione della potenza e velocità. Il carico e l’espulsione dei tubi è automatico; i tubi trafilati vengono depositati sull’apposito magazzino laterale senza interruzione del ciclo.",
+    "Tutti i movimenti vengono realizzati in sicurezza adoperando sensori, fotocellule e barriere metalliche. La velocità di lavoro e la potenza massima di trafilatura variabili sono regolabili tramite Pannello Touch.",
+    "La logica dell’impianto permette di determinare tutte le operazioni in corso di lavorazione. Possibilità di inserire le ricette e quindi di poterle riprendere.",
+    "Caratteristiche tecniche variabili secondo le esigenze del cliente.",
+    "I vantaggi che i clienti riscontrano grazie all’utilizzo degli impianti di trafilatura Violi:"
+   ],
+   "vantaggi": [
+    "Aumento della produzione aziendale",
+    "Maggior precisione nel processo di trafilatura dovuto alla tecnologia brevettata del banco trafila idraulico",
+    "Gestione ergonomica del processo"
+   ],
+   "immagini": [
+    "../home/trafila-idraulica-aperta.webp",
+    "../home/trafila-idraulica-comandi.webp",
+    "../home/trafila-idraulica-soffietto.webp",
+    "../impianti/trafilatura-side.webp",
+    "../impianti/trafilatura-semiautomatico.webp"
+   ],
+   "correlato": {
+    "testo": "Trafile idrauliche per tubi",
+    "url": "per-tubo-trafile-idrauliche.html"
+   },
+   "ricambi": true,
+   "fonte": "https://violimacchine.it/it/impianti/impianti-trafilatura-tubi-automatici"
+  },
+  "impianti-trafilatura-doppio": {
+   "tipo": "impianto",
+   "categoria": "impianti",
+   "titolo": "Impianto di trafilatura automatico doppio con taglio barre trafilate",
+   "paragrafi": [
+    "L’impianto di trafilatura automatico doppio è composto da devolgitori indipendenti a pantografo per la regolazione del diametro interno della matassa di filo. Unica struttura con doppio tiro di trafilatura indipendente con possibilità di trafilare diametri e lunghezze diverse. Carrelli di trafilatura indipendenti azionati tramite pistoni idraulici. Doppi Gruppi indipendenti di taglio tramite sega completi di pinze per il bloccaggio del tubo. Taglio fisso anteriore e taglio mobile sul carrello programmabile a misura. L’impianto è dotato di un sistema esclusivo, che permette l’avviamento graduale della potenza e velocità di trafilatura. L’espulsione dei tubi lavorati è automatica, i quali vengono depositati tramite pick places nei magazzini laterali adiacenti senza interruzione del ciclo. L’impianto è dotato di pompa di lubrificazione e serbatoio a circuito chiuso adeguati al tipo di olio utilizzato. Tutti i movimenti vengono realizzati in sicurezza adoperando sensori, fotocellule e barriere metalliche. Tutti i dati di lavoro sono regolabili tramite Pannello Touch o da controllo da remoto. La logica dell’impianto, oltre a determinare tutti paremetri di lavorazioni, ha la possibilità di inserire le ricette e poterle richiamare all’occorrenza.",
+    "Caratteristiche tecniche variabili secondo le esigenze del cliente."
+   ],
+   "vantaggi": [],
+   "immagini": [
+    "../impianti/trafilatura-doppio.webp",
+    "../home/trafila-idraulica-chiusa.webp",
+    "../home/trafila-idraulica-soffietto.webp"
+   ],
+   "correlato": {
+    "testo": "Trafile idrauliche per tubi",
+    "url": "per-tubo-trafile-idrauliche.html"
+   },
+   "ricambi": true,
+   "fonte": "https://violimacchine.it/it/impianti/impianto-di-trafilatura-doppio-automatico-con-taglio-barre-trafilate"
+  },
+  "impianti-triturazione-compattazione": {
+   "tipo": "impianto",
+   "categoria": "impianti",
+   "titolo": "Impianto automatico triturazione e compattazione truciolo",
+   "paragrafi": [
+    "Questi impianti nascono dall’esigenza di compattare truciolo prettamente lungo derivante da lavorazioni meccaniche. Violi produce bricchettatrici per trucioli per compattare trucioli derivanti da tornitura, fresatura o diamantatura di qualsiasi genere e dimensione sia in metallo prezioso che nobile.",
+    "Sono completi di sensori di presenza prodotto per la gestione automatica del processo.",
+    "La movimentazione è racchiusa in idonei pannelli con porta di sicurezza e il ciclo è gestito da PLC.",
+    "Tali impianti possono essere implementati con un sistema di sollevamento e ribaltamento cassonetti",
+    "I vantaggi che il cliente ha riscontrato:"
+   ],
+   "vantaggi": [
+    "Riduzione volume dei trucioli fino al 90%",
+    "Le bricchette rendono gli ambienti di lavoro organizzati ed efficienti",
+    "Maggior margine sulla vendita ai centri di raccolta",
+    "Recupero olii o emulsioni fino al 80%",
+    "Riduzione impatto ambientale"
+   ],
+   "immagini": [
+    "../impianti/triturazione-ctar.webp",
+    "../impianti/triturazione-dic.webp"
+   ],
+   "correlato": {
+    "testo": "Bricchettatrici per truciolo",
+    "url": "per-bricchettare-trucioli-truciolo.html"
+   },
+   "ricambi": false,
+   "fonte": "https://violimacchine.it/it/impianti/impianti-automatici-triturazione-e-compattazione-truciolo"
+  },
+  "impianti-recupero-schede-elettroniche": {
+   "tipo": "impianto",
+   "categoria": "impianti",
+   "titolo": "Impianto automatico recupero metalli preziosi da schede elettroniche",
+   "paragrafi": [
+    "Il recupero dei metalli nobili derivanti da scarti di lavorazione è un tema fondamentale per il ciclo produttivo di aziende che operano nei settori più diversi. La separatrice di componenti della serie VM/STCR è una macchina brevettata che consente di separare i componenti da schede elettroniche. A partire dalla separatrice fino ad arrivare al processo di fusione, Violi propone una vasta gamma di macchinari ideali per il recupero di metalli preziosi in totale sicurezza e semplicità di gestione."
+   ],
+   "vantaggi": [],
+   "immagini": [
+    "separatrice-di-componenti-da-schede-elettroniche.webp"
+   ],
+   "correlato": {
+    "testo": "Separatrice di componenti da schede elettroniche",
+    "url": "separatrice-schede-elettroniche.html"
+   },
+   "ricambi": true,
+   "fonte": "https://violimacchine.it/it/impianti/impianto-automatico-recupero-metalli-preziosi-da-schede-elettroniche"
+  },
+  "impianti-frantumazione": {
+   "tipo": "impianto",
+   "categoria": "impianti",
+   "titolo": "Impianto automatico di frantumazione",
+   "paragrafi": [
+    "L’impianto VM/JMP5 permette la frantumazione di molteplici materiali di natura inerte. Il sistema è estremamente silenzioso ed ha possibilità di regolare l’apertura delle ganasce in modo da scegliere la dimensione dei materiali da macinare (da 0. 5 a 1. 5/3. 0 cm). L’impianto è costituito da una tramoggia con uno scivolo vibrante ed un nastro trasportatore per il convogliamento in automatico del prodotto nel mulino ganasce.",
+    "Tutti i mulini a ganasce Violi possono essere corredati di automazione.",
+    "L’impianto è costruito in conformità alle normative europee applicabili."
+   ],
+   "vantaggi": [],
+   "immagini": [
+    "../archivio/mulino-800-b.webp",
+    "../archivio/mulino-800-c.webp",
+    "../archivio/mulino-800-a.webp",
+    "../archivio/mulino-800-d.webp"
+   ],
+   "correlato": {
+    "testo": "Mulino a ganasce",
+    "url": "per-ceneri-mulino-a-ganasce.html"
+   },
+   "ricambi": true,
+   "fonte": "https://violimacchine.it/it/impianti/impianto-automatico-di-frantumazione"
+  },
+  "impianti": {
+   "tipo": "indice-impianti",
+   "titolo": "Impianti",
+   "intro": "Ricerca e sviluppo di tecnologie all’avanguardia sono i principi cardine dell’azienda.",
+   "impianti": [
+    "impianti-svolgimento-avvolgimento-tubi",
+    "impianti-raddrizzatura-tubi",
+    "impianti-trafilatura-tubi-automatici",
+    "impianti-trafilatura-doppio",
+    "impianti-triturazione-compattazione",
+    "impianti-recupero-schede-elettroniche",
+    "impianti-frantumazione"
+   ],
+   "immagini": [
+    "../impianti/impianti-hero.webp"
+   ],
+   "fonte": "https://violimacchine.it/it/impianti"
+  },
+  "azienda": {
+   "tipo": "azienda",
+   "titolo": "Chi è Violi Macchine",
+   "fonte": "https://violimacchine.it/it/azienda-macchinari-orafi-recupero-metalli-preziosi-industrie",
+   "sezioni": [
+    {
+     "titolo": "Chi è Violi Macchine",
+     "testo": [
+      "Grazie all’esperienza trentennale nella progettazione e produzione di macchine per il settore orafo, Violi nel corso del tempo ottiene la fiducia di molteplici realtà nel settore industriale e del recupero metalli preziosi.",
+      "Oggi l’azienda, facendo un lavoro di costante ricerca e sviluppo dei propri prodotti, è partner di importanti aziende nazionali ed internazionali."
+     ]
+    },
+    {
+     "titolo": "Progettazione",
+     "testo": [
+      "Ricerca e sviluppo di nuove tecnologie sono i principi cardine dell’azienda. Il punto di partenza è l’esigenza del cliente; si cerca sempre partendo dalle tecnologie standard, di implementare processi di produzione affinché risultino più efficienti."
+     ]
+    },
+    {
+     "titolo": "Ricerca",
+     "testo": [
+      "La fase del progetto, totalmente gestita dai nostri ingegneri, è uno dei valori aggiunti delle tecnologie Violi. Il design dei nostri prodotti è armonia tra semplicità d’uso, tecnologie all’avanguardia ed alte prestazioni di lavoro."
+     ]
+    },
+    {
+     "titolo": "Innovazione",
+     "testo": [
+      "La capacità di fornire macchinari innovativi senza perdere di vista i sistemi tradizionali è caratteristica principale delle nostre tecnologie. Il know how acquisito in oltre 30 anni d’esperienza permette di innovare i nostri macchinari mantenendo la tradizione."
+     ]
+    },
+    {
+     "titolo": "Una missione di qualità",
+     "testo": [
+      "Violi si impegna da oltre 30 anni a fornire prodotti totalmente Made In Italy. Tutte le fasi di ricerca, progettuali e produttive si concentrano infatti nella nostra sede di Monte San Savino."
+     ]
+    },
+    {
+     "titolo": "Diamo forma alle tue esigenze",
+     "testo": [
+      "Violi, attenta alle esigenze del mercato, si dedica da sempre ad un modo di progettare, produrre e distribuire, che consiste nel dialogo diretto tra produttore e cliente. Ogni macchinario può essere progettato e costruito secondo specifiche richieste. La sinergia tra cliente e Violi permette di produrre tecnologie all’avanguardia ed altamente performanti."
+     ]
+    }
+   ]
+  },
+  "contatti": {
+   "tipo": "contatti",
+   "titolo": "Contatti",
+   "fonte": "https://violimacchine.it/it/contatti"
+  },
+  "news-ed-eventi": {
+   "tipo": "news",
+   "titolo": "News ed eventi",
+   "fonte": "https://violimacchine.it/it/news-ed-eventi",
+   "articoli": [
+    {
+     "id": "ipmi-eu-chapter-2026",
+     "titolo": "Violi Macchine – IPMI EU CHAPTER 2026",
+     "data": "IPMI EU CHAPTER 2026 15.11.2026 – 17.11.2026",
+     "testo": [
+      "Siamo felici di annunciare la nostra partecipazione al meeting dell’IPMI European Chapter, uno degli appuntamenti di riferimento per l’industria e il recupero dei metalli preziosi. Da anni Violi Macchine sviluppa soluzioni tecnologiche avanzate per l’ottimizzazione dei processi produttivi e il recupero dei metalli preziosi. L’evento rappresenta un’importante occasione di confronto con i principali player del settore su innovazione, sostenibilità ed efficienza nei processi di recupero e lavorazione.",
+      "📍 Passa a trovarci per scoprire le nostre tecnologie e discutere insieme delle migliori soluzioni Hotel Marriot, Atene"
+     ],
+     "contatto": "marketing@violimacchine.it",
+     "categoria": "Fiere"
+    }
+   ]
+  },
+  "per-filo-trafile-passaggi-multipli": {
+   "tipo": "prodotto",
+   "categoria": "per-filo",
+   "titolo": "Trafile a passaggi multipli per filo",
+   "paragrafi": [
+    "Violi sempre attenta alle esigenze del mercato produce una vasta gamma di trafilatrici per filo da 6, 10, 12, 14 fino a 21 passaggi con componenti elettronici all’avanguardia e tecnologie innovative.",
+    "Equipaggiabili di bobinatore totalmente elettronico, le trafilatrici Violi permettono di produrre fili anche molto sottili con standard qualitativi elevati."
+   ],
+   "immagini": [
+    "../archivio/trafila-14p-aperta.webp",
+    "../archivio/trafila-14p-chiusa.webp",
+    "../archivio/trafila-6p-aperta.webp",
+    "../archivio/trafila-14p-coni.webp",
+    "../archivio/trafila-14p-dettaglio.webp",
+    "../archivio/trafila-coni-ugelli.webp"
+   ],
+   "correlato": {
+    "testo": "Bobinatore per filo",
+    "url": "per-filo-bobinatore.html"
+   },
+   "fonte": "https://violimacchine.it/it/prodotti/per-filo/trafile-a-passaggi-multipli-per-filo"
+  }
+ }
+}

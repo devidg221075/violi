@@ -41,7 +41,7 @@ for file in PAGES:
         n = re.search(r'crop-(\d+)', cl)[1]
         w, h, pct, left, top = boxes[n]
         W = w * pct / 100
-        H = 1683 if name == 'catalogo-riferimento.png' else 1536
+        H = 1683 if name == 'catalogo-riferimento.webp' else 1536
         x, y = -left * w / 100, -top * h / 100
         if name not in sources:
             sources[name] = f'ref{len(sources)}'
@@ -50,7 +50,7 @@ for file in PAGES:
         return f'<div class="photo {cl} {sources[name]}" role="img" aria-label="{alt}"></div>'
 
     source = re.sub(
-        r'<div class="photo ([^"]*)" role="img" aria-label="([^"]*)"><img src="assets/([^"]*)"[^>]*></div>',
+        r'<div class="photo ([^"]*)" role="img" aria-label="([^"]*)"><img src="assets/(?!foto/)([^"]*)"[^>]*></div>',
         replace_photo, source)
     local = (style + '\n'
              + ''.join(f'.photo.{v}{{background-image:url("{data(A / n)}");}}' for n, v in sources.items())
@@ -59,7 +59,10 @@ for file in PAGES:
     source = source.replace('<link rel="stylesheet" href="assets/style.css">', '<style>' + local + '</style>')
     source = source.replace('<script defer src="assets/site.js"></script>',
                             '<script>document.addEventListener("DOMContentLoaded",()=>{\n' + script + '\n});</script>')
+    source = re.sub(r'<link rel="(?:icon" href="assets/favicon-32\.png|apple-touch-icon)"[^>]*>', '', source)
+    source = re.sub(r'src="(assets/foto/[^"]+)"', lambda m: 'src="' + data(ROOT / m.group(1)) + '"', source)
     source = source.replace('assets/violi-logo-web.svg', data(A / 'violi-logo-web.svg'))
+    source = source.replace('assets/violi-logo-web-bianco.svg', data(A / 'violi-logo-web-bianco.svg'))
     for name in PAGES:
         source = source.replace(f'href="{name}.html', f'href="{name}-autonomo.html')
     (OUT / (file + '-autonomo.html')).write_text(source)
